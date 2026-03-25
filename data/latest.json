@@ -1,12 +1,12 @@
 {
-  "generated_at_utc": "2026-03-25T19:21:26Z",
+  "generated_at_utc": "2026-03-25T19:27:26Z",
   "github_trending": [
     {
       "name": "slavingia/skills",
       "url": "https://github.com/slavingia/skills",
       "description": "Claude Code skills based on The Minimalist Entrepreneur by Sahil Lavingia",
       "language": "Unknown",
-      "stars": 2101,
+      "stars": 2109,
       "source": "GitHub Trending"
     },
     {
@@ -46,7 +46,7 @@
       "url": "https://github.com/louislva/claude-peers-mcp",
       "description": "Allow all your Claude Codes to message each other ad-hoc!",
       "language": "TypeScript",
-      "stars": 1180,
+      "stars": 1181,
       "source": "GitHub Trending"
     },
     {
@@ -82,197 +82,12 @@
       "source": "GitHub Trending"
     }
   ],
-  "reddit_repositories": [
-    {
-      "name": "MODSetter/SurfSense",
-      "url": "https://github.com/MODSetter/SurfSense",
-      "description": "Open source alternative to NotebookLM for teams. Join our Discord: https://discord.gg/ejRNvftDp9",
-      "language": "Python",
-      "stars": 13525,
-      "source": "Reddit",
-      "reddit_context": {
-        "subreddit": "artificial",
-        "post": "https://www.reddit.com/r/artificial/comments/1s2761n/open_source_alternative_to_notebooklm/",
-        "score": 8,
-        "comments": 3
-      }
-    },
-    {
-      "name": "canuk40/xpfarm",
-      "url": "https://github.com/canuk40/xpfarm",
-      "description": "Automated bug bounty & recon framework \u2014 wraps Subfinder, Naabu, Httpx, Nuclei, Nmap, CVEMap, Gowitness, Katana & more behind a unified web UI",
-      "language": "Go",
-      "stars": 132,
-      "source": "Reddit",
-      "reddit_context": {
-        "subreddit": "artificial",
-        "post": "https://www.reddit.com/r/artificial/comments/1s2e2ds/whats_your_thoughts_on_bugbounty_software_powered/",
-        "score": 3,
-        "comments": 0
-      }
-    }
-  ],
-  "ai_news": [
-    {
-      "title": "LM Studio may possibly be infected with sophisticated malware.",
-      "url": "https://i.redd.it/kmwwgv6bmzqg1.jpeg",
-      "reddit_post": "https://www.reddit.com/r/LocalLLaMA/comments/1s2clw6/lm_studio_may_possibly_be_infected_with/",
-      "subreddit": "LocalLLaMA",
-      "score": 1311,
-      "summary": "\\*\\*NO VIRUS\\*\\* LM studio has stated it was a false positive and Microsoft dealt with it I'm no expert, just a tinkerer who messed with models at home, so correct me if this is a\u2026"
-    },
-    {
-      "title": "Jensen Huang (NVIDIA) claims AGI has been achieved",
-      "url": "https://v.redd.it/vlgh9768stqg1",
-      "reddit_post": "https://www.reddit.com/r/singularity/comments/1s1mix1/jensen_huang_nvidia_claims_agi_has_been_achieved/",
-      "subreddit": "singularity",
-      "score": 1203,
-      "summary": "https://youtu.be/vif8NQcjVf0?si=WhXfzQ3-Dk5ZvEpo"
-    },
-    {
-      "title": "Following its acrobatic motorcycle, RAI Institute debuts RoadRunner, a robot whose wheels can position themselves to act as a motorcycle, a single-axis cart, or even as human walking",
-      "url": "https://v.redd.it/s85bygk1wzqg1",
-      "reddit_post": "https://www.reddit.com/r/singularity/comments/1s2dsx8/following_its_acrobatic_motorcycle_rai_institute/",
-      "subreddit": "singularity",
-      "score": 896,
-      "summary": "Following its acrobatic motorcycle, RAI Institute debuts RoadRunner, a robot whose wheels can position themselves to act as a motorcycle, a single-axis cart, or even as human walk\u2026"
-    },
-    {
-      "title": "Best model that can beat Claude opus that runs on 32MB of vram?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s2i7pw/best_model_that_can_beat_claude_opus_that_runs_on/",
-      "reddit_post": "https://www.reddit.com/r/LocalLLaMA/comments/1s2i7pw/best_model_that_can_beat_claude_opus_that_runs_on/",
-      "subreddit": "LocalLLaMA",
-      "score": 829,
-      "summary": "Hi everyone! I want to get in to vibe coding to make my very own ai wrapper, what are the best models that can run on 32MB of vram? I have a GeForce 256, and an intel pentium 3, i\u2026"
-    },
-    {
-      "title": "TheInformation reporting OAI finished pretraining new very strong model \u201cSpud\u201d, Altman notes things moving faster than many expected",
-      "url": "https://i.redd.it/ipizrkut22rg1.jpeg",
-      "reddit_post": "https://www.reddit.com/r/singularity/comments/1s2q0yb/theinformation_reporting_oai_finished_pretraining/",
-      "subreddit": "singularity",
-      "score": 504,
-      "summary": "Link to tweet: https://x.com/btibor91/status/2036540895986602266?s=20 Link to article: https://www.theinformation.com/articles/openai-ceo-shifts-responsibilities-preps-spud-ai-mod\u2026"
-    },
-    {
-      "title": "Every time someone is surprised when they find out AI is just a pattern identifier",
-      "url": "https://i.redd.it/0t9gyxs3l4rg1.jpeg",
-      "reddit_post": "https://www.reddit.com/r/singularity/comments/1s31t9h/every_time_someone_is_surprised_when_they_find/",
-      "subreddit": "singularity",
-      "score": 493,
-      "summary": "Everyone is cynical ai will be able to surpass human abilities. But what makes everyone just so sure humans are special or work any other way? Pattern recognition of a logical sys\u2026"
-    },
-    {
-      "title": "Created a SillyTavern extension that brings NPC's to life in any game",
-      "url": "https://v.redd.it/9ju2tp2gezqg1",
-      "reddit_post": "https://www.reddit.com/r/LocalLLaMA/comments/1s2ci9r/created_a_sillytavern_extension_that_brings_npcs/",
-      "subreddit": "LocalLLaMA",
-      "score": 479,
-      "summary": "Using SillyTavern as the backend for all the RP means it can work with almost any game, with just a small mod acting as a bridge between them. Right now I\u2019m using Cydonia as the R\u2026"
-    },
-    {
-      "title": "Sora shutdown is a good early example of what private AI companies will do when they achieve AGI",
-      "url": "https://www.reddit.com/r/singularity/comments/1s2tr80/sora_shutdown_is_a_good_early_example_of_what/",
-      "reddit_post": "https://www.reddit.com/r/singularity/comments/1s2tr80/sora_shutdown_is_a_good_early_example_of_what/",
-      "subreddit": "singularity",
-      "score": 475,
-      "summary": "They will need all of their compute to try to reach ASI as quickly as possible. They know that whoever gets there first wins. So when that happens, say goodbye to your subscriptio\u2026"
-    },
-    {
-      "title": "Billionaire Reddit CEO Steve Huffman says his company will \"go heavy\" on hiring graduates because \"they're so much more AI native\" than older peers",
-      "url": "https://fortune.com/2026/03/23/billionaire-reddit-ceo-steve-huffman-go-heavy-hiring-graduates-much-more-ai-native-older-peers/",
-      "reddit_post": "https://www.reddit.com/r/singularity/comments/1s1ko3y/billionaire_reddit_ceo_steve_huffman_says_his/",
-      "subreddit": "singularity",
-      "score": 469,
-      "summary": "Face-faced college graduates are watching the American Dream be swept out from underneath them, and entering a gloomy entry-level job market pillaged by AI automation. However, no\u2026"
-    },
-    {
-      "title": "The goal post moving by anti-AI people is getting ridiculous.",
-      "url": "https://www.reddit.com/r/singularity/comments/1s2dpuo/the_goal_post_moving_by_antiai_people_is_getting/",
-      "reddit_post": "https://www.reddit.com/r/singularity/comments/1s2dpuo/the_goal_post_moving_by_antiai_people_is_getting/",
-      "subreddit": "singularity",
-      "score": 420,
-      "summary": "I've been closely following AI news since 2017 and have been on this sub since around 2021. When I look at where we came from, it's mind-blowing. Just a few years ago, AI image ge\u2026"
-    },
-    {
-      "title": "Intel will sell a cheap GPU with 32GB VRAM next week",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s3e8bd/intel_will_sell_a_cheap_gpu_with_32gb_vram_next/",
-      "reddit_post": "https://www.reddit.com/r/LocalLLaMA/comments/1s3e8bd/intel_will_sell_a_cheap_gpu_with_32gb_vram_next/",
-      "subreddit": "LocalLLaMA",
-      "score": 376,
-      "summary": "It seems Intel will release a GPU with 32 GB of VRAM on March 31, which they would sell directly for $949. Bandwidth would be 608 GB/s (a little less than an NVIDIA 5070), and wat\u2026"
-    },
-    {
-      "title": "Hundreds of protesters marched in SF, calling for AI companies to commit to pausing if everyone else agrees to pause (since no one can pause unilaterally)",
-      "url": "https://v.redd.it/52xdmtkywsqg1",
-      "reddit_post": "https://www.reddit.com/r/singularity/comments/1s1omtg/hundreds_of_protesters_marched_in_sf_calling_for/",
-      "subreddit": "singularity",
-      "score": 367,
-      "summary": "Hundreds of protesters marched in SF, calling for AI companies to commit to pausing if everyone else agrees to pause (since no one can pause unilaterally)"
-    },
-    {
-      "title": "[Developing situation] LiteLLM compromised",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s2fch0/developing_situation_litellm_compromised/",
-      "reddit_post": "https://www.reddit.com/r/LocalLLaMA/comments/1s2fch0/developing_situation_litellm_compromised/",
-      "subreddit": "LocalLLaMA",
-      "score": 355,
-      "summary": "https://preview.redd.it/2j4q6tni60rg1.png?width=1250&amp;format=png&amp;auto=webp&amp;s=31713cf00753ba517ec22e059d832cf5c456b4e6 Stay safe y'all. [https://github.com/BerriAI/litel\u2026"
-    },
-    {
-      "title": "Anthropic announces Dispatch. Control your Claude cowork from your mobile device.",
-      "url": "https://v.redd.it/k5n1nsqhlvqg1",
-      "reddit_post": "https://www.reddit.com/r/singularity/comments/1s1wnys/anthropic_announces_dispatch_control_your_claude/",
-      "subreddit": "singularity",
-      "score": 297,
-      "summary": "https://claude.com/blog/dispatch-and-computer-use"
-    },
-    {
-      "title": "New open weights models: GigaChat-3.1-Ultra-702B and GigaChat-3.1-Lightning-10B-A1.8B",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s2pkfw/new_open_weights_models_gigachat31ultra702b_and/",
-      "reddit_post": "https://www.reddit.com/r/LocalLLaMA/comments/1s2pkfw/new_open_weights_models_gigachat31ultra702b_and/",
-      "subreddit": "LocalLLaMA",
-      "score": 276,
-      "summary": "Hey, folks! We've released the weights of our GigaChat-3.1-Ultra and Lightning models under MIT license [at our HF](https://huggingface.co/collections/ai-sage/gigachat-31). These\u2026"
-    },
-    {
-      "title": "I'm impressed that the Grok meltdown isn't posted here like the GPT 4o was.",
-      "url": "https://www.reddit.com/r/singularity/comments/1s2ixtr/im_impressed_that_the_grok_meltdown_isnt_posted/",
-      "reddit_post": "https://www.reddit.com/r/singularity/comments/1s2ixtr/im_impressed_that_the_grok_meltdown_isnt_posted/",
-      "subreddit": "singularity",
-      "score": 253,
-      "summary": "For those out of the loop, Grok is now paid for Imagine and Video creation. Furthermore, Grok is a lot more moderated than it was previously. You also get a lot less generation th\u2026"
-    },
-    {
-      "title": "[google research] TurboQuant: Redefining AI efficiency with extreme compression",
-      "url": "https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/",
-      "reddit_post": "https://www.reddit.com/r/LocalLLaMA/comments/1s2su28/google_research_turboquant_redefining_ai/",
-      "subreddit": "LocalLLaMA",
-      "score": 246,
-      "summary": "[google research] TurboQuant: Redefining AI efficiency with extreme compression"
-    },
-    {
-      "title": "Andrej Karpathy's autonomous AI research agent ran 700 experiments in 2 days and gave a glimpse of where AI is heading",
-      "url": "https://fortune.com/2026/03/17/andrej-karpathy-loop-autonomous-ai-agents-future/",
-      "reddit_post": "https://www.reddit.com/r/artificial/comments/1s1b1zm/andrej_karpathys_autonomous_ai_research_agent_ran/",
-      "subreddit": "artificial",
-      "score": 244,
-      "summary": "Andrej Karpathy's autonomous AI research agent ran 700 experiments in 2 days and gave a glimpse of where AI is heading"
-    },
-    {
-      "title": "First-ever American AI Jobs Risk Index released by Tufts University",
-      "url": "https://www.reddit.com/gallery/1s38zik",
-      "reddit_post": "https://www.reddit.com/r/singularity/comments/1s38zik/firstever_american_ai_jobs_risk_index_released_by/",
-      "subreddit": "singularity",
-      "score": 240,
-      "summary": "[First-ever American AI Jobs Risk Index released by Tufts University - The Brighter Side of News](https://www.thebrighterside.news/post/first-ever-american-ai-jobs-risk-index-rele\u2026"
-    },
-    {
-      "title": "DeepSeek Employee Teases \"Massive\" New Model Surpassing DeepSeek V3.2",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s39024/deepseek_employee_teases_massive_new_model/",
-      "reddit_post": "https://www.reddit.com/r/LocalLLaMA/comments/1s39024/deepseek_employee_teases_massive_new_model/",
-      "subreddit": "LocalLLaMA",
-      "score": 203,
-      "summary": "[Translated by Nano Banana ](https://preview.redd.it/cgcrj6z2n6rg1.png?width=1138&amp;format=png&amp;auto=webp&amp;s=9062bd60f8870f53efae287e94d9d3d198e452e9) https://preview.redd\u2026"
-    }
-  ],
-  "warnings": []
+  "reddit_repositories": [],
+  "ai_news": [],
+  "warnings": [
+    "Failed to fetch r/MachineLearning: Reddit returned non-JSON for r/MachineLearning: <body class=theme-beta><div><style>.theme-light,:root{--rem360:22.5rem;--rem320:20rem;--rem192:12rem;--rem144:9rem;--rem128:8rem;--rem96:6rem;--rem90:5.625rem;--rem88:5.5rem;--rem6",
+    "Failed to fetch r/LocalLLaMA: Reddit returned non-JSON for r/LocalLLaMA: <body class=theme-beta><div><style>.theme-light,:root{--rem360:22.5rem;--rem320:20rem;--rem192:12rem;--rem144:9rem;--rem128:8rem;--rem96:6rem;--rem90:5.625rem;--rem88:5.5rem;--rem6",
+    "Failed to fetch r/artificial: Reddit returned non-JSON for r/artificial: <body class=theme-beta><div><style>.theme-light,:root{--rem360:22.5rem;--rem320:20rem;--rem192:12rem;--rem144:9rem;--rem128:8rem;--rem96:6rem;--rem90:5.625rem;--rem88:5.5rem;--rem6",
+    "Failed to fetch r/singularity: Reddit returned non-JSON for r/singularity: <body class=theme-beta><div><style>.theme-light,:root{--rem360:22.5rem;--rem320:20rem;--rem192:12rem;--rem144:9rem;--rem128:8rem;--rem96:6rem;--rem90:5.625rem;--rem88:5.5rem;--rem6"
+  ]
 }
