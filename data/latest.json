@@ -1,12 +1,12 @@
 {
-  "generated_at_utc": "2026-03-25T19:47:27Z",
+  "generated_at_utc": "2026-03-25T19:48:11Z",
   "github_trending": [
     {
       "name": "slavingia/skills",
       "url": "https://github.com/slavingia/skills",
       "description": "Claude Code skills based on The Minimalist Entrepreneur by Sahil Lavingia",
       "language": "Unknown",
-      "stars": 2129,
+      "stars": 2131,
       "source": "GitHub Trending"
     },
     {
@@ -113,7 +113,7 @@
         "url": "https://github.com/vinta/awesome-python",
         "description": "An opinionated list of Python frameworks, libraries, tools, and resources.",
         "language": "Python",
-        "stars": 288954,
+        "stars": 288955,
         "source": "GitHub Top (Python)"
       },
       {
@@ -235,7 +235,7 @@
         "url": "https://github.com/affaan-m/everything-claude-code",
         "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
         "language": "JavaScript",
-        "stars": 107572,
+        "stars": 107573,
         "source": "GitHub Top (JavaScript)"
       },
       {
@@ -335,7 +335,7 @@
         "url": "https://github.com/avelino/awesome-go",
         "description": "A curated list of awesome Go frameworks, libraries and software",
         "language": "Go",
-        "stars": 168228,
+        "stars": 168229,
         "source": "GitHub Top (Go)"
       },
       {
