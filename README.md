@@ -3,8 +3,8 @@
 Automated twice-daily Hacker News-style page that publishes:
 
 - Top 10 trending GitHub repositories (all languages)
-- Trending GitHub repositories discovered from Reddit discussions
-- AI / LLM / model training / AI research news from selected subreddits
+- Top 10 repositories for each major language
+- Hacker News front-page links with concise summaries
 
 ## How it works
 
@@ -31,26 +31,10 @@ These correspond to **06:00 and 18:00 in America/Tijuana while on PDT (UTC-7)**.
 ## Data sources
 
 - GitHub API Search (`/search/repositories`)
-- GitHub Repository API (`/repos/{owner}/{repo}`)
-- Reddit API (OAuth) for:
-  - `r/MachineLearning`
-  - `r/LocalLLaMA`
-  - `r/artificial`
-  - `r/singularity`
-
-## Reddit scraping in GitHub Actions
-
-Reddit blocks many unauthenticated requests from CI runners. The workflow supports the official Reddit API via OAuth client credentials.
-
-Add these repository secrets:
-
-- `REDDIT_CLIENT_ID`
-- `REDDIT_CLIENT_SECRET`
-
-If these are missing, the script falls back to unauthenticated Reddit JSON and may produce warnings or empty Reddit sections.
+- Hacker News Algolia API (`front_page` feed)
 
 ## Notes
 
 - `GITHUB_TOKEN` is used automatically in GitHub Actions for authenticated API requests.
-- Reddit content is filtered for AI/LLM/research keywords for the news section.
-- Repository summaries are generated from repository descriptions and include language + stars when available.
+- Repository summaries include language + stars when available.
+- Previous `index.html` pages are preserved in `archive/` with timestamps.
