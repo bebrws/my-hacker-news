@@ -3,13 +3,13 @@
 
 from __future__ import annotations
 
+import base64
 import datetime as dt
 import html
 import json
 import os
 import re
 import shutil
-import subprocess
 import sys
 import urllib.error
 import urllib.parse
@@ -35,6 +35,19 @@ SUBREDDITS = [
     "LocalLLaMA",
     "artificial",
     "singularity",
+]
+
+TOP_LANGUAGES = [
+    "Python",
+    "JavaScript",
+    "TypeScript",
+    "Go",
+    "Rust",
+    "Java",
+    "C++",
+    "C#",
+    "Swift",
+    "Kotlin",
 ]
 
 AI_KEYWORDS = [
@@ -84,6 +97,17 @@ def concise_summary(text: str, max_len: int = 180) -> str:
     return text[: max_len - 1].rstrip() + "…"
 
 
+def _normalize_repo_item(item: Dict[str, Any], source: str) -> Dict[str, Any]:
+    return {
+        "name": item.get("full_name"),
+        "url": item.get("html_url"),
+        "description": concise_summary(item.get("description", "")),
+        "language": item.get("language") or "Unknown",
+        "stars": item.get("stargazers_count", 0),
+        "source": source,
+    }
+
+
 def github_trending_repos(top_n: int = 10) -> List[Dict[str, Any]]:
     since = (dt.datetime.utcnow() - dt.timedelta(days=7)).strftime("%Y-%m-%d")
     query = urllib.parse.quote(f"created:>={since} stars:>50")
@@ -92,19 +116,29 @@ def github_trending_repos(top_n: int = 10) -> List[Dict[str, Any]]:
         f"?q={query}&sort=stars&order=desc&per_page={top_n}"
     )
     data = fetch_json(url, headers=github_headers())
-    repos = []
-    for item in data.get("items", [])[:top_n]:
-        repos.append(
-            {
-                "name": item.get("full_name"),
-                "url": item.get("html_url"),
-                "description": concise_summary(item.get("description", "")),
-                "language": item.get("language") or "Unknown",
-                "stars": item.get("stargazers_count", 0),
-                "source": "GitHub Trending",
-            }
-        )
-    return repos
+    return [_normalize_repo_item(item, "GitHub Trending") for item in data.get("items", [])[:top_n]]
+
+
+def github_top_by_language(language: str, top_n: int = 10) -> List[Dict[str, Any]]:
+    query = urllib.parse.quote(f"language:{language} stars:>500")
+    url = (
+        f"{GITHUB_API}/search/repositories"
+        f"?q={query}&sort=stars&order=desc&per_page={top_n}"
+    )
+    data = fetch_json(url, headers=github_headers())
+    return [_normalize_repo_item(item, f"GitHub Top ({language})") for item in data.get("items", [])[:top_n]]
+
+
+def github_top_repos_per_language(top_n: int = 10) -> Tuple[Dict[str, List[Dict[str, Any]]], List[str]]:
+    out: Dict[str, List[Dict[str, Any]]] = {}
+    warnings: List[str] = []
+    for lang in TOP_LANGUAGES:
+        try:
+            out[lang] = github_top_by_language(lang, top_n=top_n)
+        except Exception as e:
+            warnings.append(f"Failed GitHub language query ({lang}): {e}")
+            out[lang] = []
+    return out, warnings
 
 
 def extract_repo_slug(url: str) -> Optional[str]:
@@ -135,28 +169,48 @@ def fetch_repo_details(slug: str) -> Optional[Dict[str, Any]]:
     }
 
 
-def reddit_posts(subreddit: str, listing: str = "hot", limit: int = 25) -> List[Dict[str, Any]]:
-    url = f"https://www.reddit.com/r/{subreddit}/{listing}.json?limit={limit}"
-    cmd = [
-        "curl",
-        "--silent",
-        "--show-error",
-        "--location",
-        "--max-time",
-        "30",
-        "-A",
-        USER_AGENT,
-        "-H",
-        "Accept: application/json",
-        url,
-    ]
-    proc = subprocess.run(cmd, check=True, capture_output=True, text=True)
+def reddit_api_token() -> Optional[str]:
+    client_id = os.getenv("REDDIT_CLIENT_ID", "").strip()
+    client_secret = os.getenv("REDDIT_CLIENT_SECRET", "").strip()
+    if not client_id or not client_secret:
+        return None
+
+    auth = base64.b64encode(f"{client_id}:{client_secret}".encode("utf-8")).decode("ascii")
+    body = urllib.parse.urlencode({"grant_type": "client_credentials"}).encode("utf-8")
+    headers = {
+        "Authorization": f"Basic {auth}",
+        "User-Agent": USER_AGENT,
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Accept": "application/json",
+    }
+    req = urllib.request.Request(
+        "https://www.reddit.com/api/v1/access_token",
+        data=body,
+        headers=headers,
+        method="POST",
+    )
 
     try:
-        data = json.loads(proc.stdout)
-    except json.JSONDecodeError as exc:
-        snippet = (proc.stdout or "")[:180].replace("\n", " ")
-        raise RuntimeError(f"Reddit returned non-JSON for r/{subreddit}: {snippet}") from exc
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            token_data = json.loads(resp.read().decode("utf-8"))
+    except Exception as e:
+        raise RuntimeError(f"Failed Reddit OAuth token request: {e}") from e
+
+    token = token_data.get("access_token")
+    if not token:
+        raise RuntimeError("Reddit OAuth response missing access_token")
+    return token
+
+
+def reddit_posts(subreddit: str, listing: str = "hot", limit: int = 25) -> List[Dict[str, Any]]:
+    token = reddit_api_token()
+    if token:
+        url = f"https://oauth.reddit.com/r/{subreddit}/{listing}.json?limit={limit}"
+        data = fetch_json(url, headers={"Authorization": f"Bearer {token}"})
+    else:
+        # Fallback for environments without Reddit API credentials.
+        url = f"https://www.reddit.com/r/{subreddit}/{listing}.json?limit={limit}"
+        data = fetch_json(url)
 
     children = data.get("data", {}).get("children", [])
     if not isinstance(children, list):
@@ -280,6 +334,7 @@ def render_news_row(item: Dict[str, Any]) -> str:
 def write_html(
     generated_at_utc: dt.datetime,
     gh_repos: List[Dict[str, Any]],
+    top_by_language: Dict[str, List[Dict[str, Any]]],
     reddit_repos: List[Dict[str, Any]],
     news: List[Dict[str, Any]],
     archived_path: Optional[Path],
@@ -291,6 +346,14 @@ def write_html(
         archive_note = f"Previous index archived as <code>{html.escape(str(archived_path.relative_to(ROOT)))}</code>."
 
     gh_html = "\n".join(render_repo_row(r) for r in gh_repos) or "<p>No GitHub repos found.</p>"
+    lang_sections = []
+    for lang, repos in top_by_language.items():
+        lang_html = "\n".join(render_repo_row(r) for r in repos) or "<p>No repos found for this language.</p>"
+        lang_sections.append(
+            f"<details><summary><strong>{html.escape(lang)}</strong> — Top 10</summary><div class='grid'>{lang_html}</div></details>"
+        )
+    top_lang_html = "\n".join(lang_sections)
+
     rr_html = "\n".join(render_repo_row(r) for r in reddit_repos) or "<p>No Reddit-linked repos found.</p>"
     news_html = "\n".join(render_news_row(n) for n in news) or "<p>No news found.</p>"
     warnings_html = ""
@@ -330,6 +393,11 @@ def write_html(
     </section>
 
     <section>
+      <h2>Top 10 Repositories by Language</h2>
+      {top_lang_html}
+    </section>
+
+    <section>
       <h2>Trending Repositories from Reddit</h2>
       <div class=\"grid\">{rr_html}</div>
     </section>
@@ -351,6 +419,7 @@ def write_html(
 def write_data_json(
     generated_at_utc: dt.datetime,
     gh_repos: List[Dict[str, Any]],
+    top_by_language: Dict[str, List[Dict[str, Any]]],
     reddit_repos: List[Dict[str, Any]],
     news: List[Dict[str, Any]],
     warnings: List[str],
@@ -359,6 +428,7 @@ def write_data_json(
     payload = {
         "generated_at_utc": generated_at_utc.isoformat() + "Z",
         "github_trending": gh_repos,
+        "github_top_by_language": top_by_language,
         "reddit_repositories": reddit_repos,
         "ai_news": news,
         "warnings": warnings,
@@ -371,15 +441,21 @@ def main() -> int:
 
     archived = archive_previous_index(now)
     gh_repos = github_trending_repos(top_n=10)
+    top_by_language, lang_warnings = github_top_repos_per_language(top_n=10)
     reddit_repos, news, warnings = collect_reddit_content()
+    warnings.extend(lang_warnings)
 
-    write_html(now, gh_repos, reddit_repos, news, archived, warnings)
-    write_data_json(now, gh_repos, reddit_repos, news, warnings)
+    write_html(now, gh_repos, top_by_language, reddit_repos, news, archived, warnings)
+    write_data_json(now, gh_repos, top_by_language, reddit_repos, news, warnings)
 
     print("Built index.html and data/latest.json")
     if archived:
         print(f"Archived previous index to {archived.relative_to(ROOT)}")
-    print(f"GitHub repos: {len(gh_repos)}, Reddit repos: {len(reddit_repos)}, News: {len(news)}")
+    print(
+        f"GitHub repos: {len(gh_repos)}, "
+        f"language groups: {len(top_by_language)}, "
+        f"Reddit repos: {len(reddit_repos)}, News: {len(news)}"
+    )
     if warnings:
         print(f"Warnings: {len(warnings)}")
         for w in warnings:

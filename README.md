@@ -32,11 +32,22 @@ These correspond to **06:00 and 18:00 in America/Tijuana while on PDT (UTC-7)**.
 
 - GitHub API Search (`/search/repositories`)
 - GitHub Repository API (`/repos/{owner}/{repo}`)
-- Reddit JSON feeds for:
+- Reddit API (OAuth) for:
   - `r/MachineLearning`
   - `r/LocalLLaMA`
   - `r/artificial`
   - `r/singularity`
+
+## Reddit scraping in GitHub Actions
+
+Reddit blocks many unauthenticated requests from CI runners. The workflow supports the official Reddit API via OAuth client credentials.
+
+Add these repository secrets:
+
+- `REDDIT_CLIENT_ID`
+- `REDDIT_CLIENT_SECRET`
+
+If these are missing, the script falls back to unauthenticated Reddit JSON and may produce warnings or empty Reddit sections.
 
 ## Notes
 

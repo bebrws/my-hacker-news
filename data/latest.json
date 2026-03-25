@@ -1,12 +1,12 @@
 {
-  "generated_at_utc": "2026-03-25T19:28:09Z",
+  "generated_at_utc": "2026-03-25T19:47:27Z",
   "github_trending": [
     {
       "name": "slavingia/skills",
       "url": "https://github.com/slavingia/skills",
       "description": "Claude Code skills based on The Minimalist Entrepreneur by Sahil Lavingia",
       "language": "Unknown",
-      "stars": 2108,
+      "stars": 2129,
       "source": "GitHub Trending"
     },
     {
@@ -30,7 +30,7 @@
       "url": "https://github.com/zarazhangrui/codebase-to-course",
       "description": "A Claude Code skill that turns any codebase into a beautiful, interactive single-page HTML course for non-technical vibe coders.",
       "language": "Unknown",
-      "stars": 1439,
+      "stars": 1440,
       "source": "GitHub Trending"
     },
     {
@@ -46,7 +46,7 @@
       "url": "https://github.com/louislva/claude-peers-mcp",
       "description": "Allow all your Claude Codes to message each other ad-hoc!",
       "language": "TypeScript",
-      "stars": 1181,
+      "stars": 1182,
       "source": "GitHub Trending"
     },
     {
@@ -82,12 +82,834 @@
       "source": "GitHub Trending"
     }
   ],
+  "github_top_by_language": {
+    "Python": [
+      {
+        "name": "public-apis/public-apis",
+        "url": "https://github.com/public-apis/public-apis",
+        "description": "A collective list of free APIs",
+        "language": "Python",
+        "stars": 416050,
+        "source": "GitHub Top (Python)"
+      },
+      {
+        "name": "EbookFoundation/free-programming-books",
+        "url": "https://github.com/EbookFoundation/free-programming-books",
+        "description": ":books: Freely available programming books",
+        "language": "Python",
+        "stars": 384571,
+        "source": "GitHub Top (Python)"
+      },
+      {
+        "name": "donnemartin/system-design-primer",
+        "url": "https://github.com/donnemartin/system-design-primer",
+        "description": "Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.",
+        "language": "Python",
+        "stars": 340199,
+        "source": "GitHub Top (Python)"
+      },
+      {
+        "name": "vinta/awesome-python",
+        "url": "https://github.com/vinta/awesome-python",
+        "description": "An opinionated list of Python frameworks, libraries, tools, and resources.",
+        "language": "Python",
+        "stars": 288954,
+        "source": "GitHub Top (Python)"
+      },
+      {
+        "name": "TheAlgorithms/Python",
+        "url": "https://github.com/TheAlgorithms/Python",
+        "description": "All Algorithms implemented in Python",
+        "language": "Python",
+        "stars": 219047,
+        "source": "GitHub Top (Python)"
+      },
+      {
+        "name": "Significant-Gravitas/AutoGPT",
+        "url": "https://github.com/Significant-Gravitas/AutoGPT",
+        "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
+        "language": "Python",
+        "stars": 182826,
+        "source": "GitHub Top (Python)"
+      },
+      {
+        "name": "AUTOMATIC1111/stable-diffusion-webui",
+        "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+        "description": "Stable Diffusion web UI",
+        "language": "Python",
+        "stars": 161990,
+        "source": "GitHub Top (Python)"
+      },
+      {
+        "name": "huggingface/transformers",
+        "url": "https://github.com/huggingface/transformers",
+        "description": "\ud83e\udd17 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
+        "language": "Python",
+        "stars": 158398,
+        "source": "GitHub Top (Python)"
+      },
+      {
+        "name": "yt-dlp/yt-dlp",
+        "url": "https://github.com/yt-dlp/yt-dlp",
+        "description": "A feature-rich command-line audio/video downloader",
+        "language": "Python",
+        "stars": 153250,
+        "source": "GitHub Top (Python)"
+      },
+      {
+        "name": "521xueweihan/HelloGitHub",
+        "url": "https://github.com/521xueweihan/HelloGitHub",
+        "description": ":octocat: \u5206\u4eab GitHub \u4e0a\u6709\u8da3\u3001\u5165\u95e8\u7ea7\u7684\u5f00\u6e90\u9879\u76ee\u3002Share interesting, entry-level open source projects on GitHub.",
+        "language": "Python",
+        "stars": 147422,
+        "source": "GitHub Top (Python)"
+      }
+    ],
+    "JavaScript": [
+      {
+        "name": "facebook/react",
+        "url": "https://github.com/facebook/react",
+        "description": "The library for web and native user interfaces.",
+        "language": "JavaScript",
+        "stars": 244187,
+        "source": "GitHub Top (JavaScript)"
+      },
+      {
+        "name": "trekhleb/javascript-algorithms",
+        "url": "https://github.com/trekhleb/javascript-algorithms",
+        "description": "\ud83d\udcdd Algorithms and data structures implemented in JavaScript with explanations and links to further readings",
+        "language": "JavaScript",
+        "stars": 195783,
+        "source": "GitHub Top (JavaScript)"
+      },
+      {
+        "name": "airbnb/javascript",
+        "url": "https://github.com/airbnb/javascript",
+        "description": "JavaScript Style Guide",
+        "language": "JavaScript",
+        "stars": 148109,
+        "source": "GitHub Top (JavaScript)"
+      },
+      {
+        "name": "vercel/next.js",
+        "url": "https://github.com/vercel/next.js",
+        "description": "The React Framework",
+        "language": "JavaScript",
+        "stars": 138471,
+        "source": "GitHub Top (JavaScript)"
+      },
+      {
+        "name": "Chalarangelo/30-seconds-of-code",
+        "url": "https://github.com/Chalarangelo/30-seconds-of-code",
+        "description": "Coding articles to level up your development skills",
+        "language": "JavaScript",
+        "stars": 127216,
+        "source": "GitHub Top (JavaScript)"
+      },
+      {
+        "name": "nodejs/node",
+        "url": "https://github.com/nodejs/node",
+        "description": "Node.js JavaScript runtime \u2728\ud83d\udc22\ud83d\ude80\u2728",
+        "language": "JavaScript",
+        "stars": 116424,
+        "source": "GitHub Top (JavaScript)"
+      },
+      {
+        "name": "mrdoob/three.js",
+        "url": "https://github.com/mrdoob/three.js",
+        "description": "JavaScript 3D Library.",
+        "language": "JavaScript",
+        "stars": 111557,
+        "source": "GitHub Top (JavaScript)"
+      },
+      {
+        "name": "axios/axios",
+        "url": "https://github.com/axios/axios",
+        "description": "Promise based HTTP client for the browser and node.js",
+        "language": "JavaScript",
+        "stars": 108648,
+        "source": "GitHub Top (JavaScript)"
+      },
+      {
+        "name": "affaan-m/everything-claude-code",
+        "url": "https://github.com/affaan-m/everything-claude-code",
+        "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+        "language": "JavaScript",
+        "stars": 107572,
+        "source": "GitHub Top (JavaScript)"
+      },
+      {
+        "name": "facebook/create-react-app",
+        "url": "https://github.com/facebook/create-react-app",
+        "description": "Set up a modern web app by running one command.",
+        "language": "JavaScript",
+        "stars": 103806,
+        "source": "GitHub Top (JavaScript)"
+      }
+    ],
+    "TypeScript": [
+      {
+        "name": "freeCodeCamp/freeCodeCamp",
+        "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+        "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
+        "language": "TypeScript",
+        "stars": 438824,
+        "source": "GitHub Top (TypeScript)"
+      },
+      {
+        "name": "kamranahmedse/developer-roadmap",
+        "url": "https://github.com/kamranahmedse/developer-roadmap",
+        "description": "Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
+        "language": "TypeScript",
+        "stars": 351661,
+        "source": "GitHub Top (TypeScript)"
+      },
+      {
+        "name": "openclaw/openclaw",
+        "url": "https://github.com/openclaw/openclaw",
+        "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. \ud83e\udd9e",
+        "language": "TypeScript",
+        "stars": 335776,
+        "source": "GitHub Top (TypeScript)"
+      },
+      {
+        "name": "vuejs/vue",
+        "url": "https://github.com/vuejs/vue",
+        "description": "This is the repo for Vue 2. For Vue 3, go to https://github.com/vuejs/core",
+        "language": "TypeScript",
+        "stars": 209962,
+        "source": "GitHub Top (TypeScript)"
+      },
+      {
+        "name": "microsoft/vscode",
+        "url": "https://github.com/microsoft/vscode",
+        "description": "Visual Studio Code",
+        "language": "TypeScript",
+        "stars": 183063,
+        "source": "GitHub Top (TypeScript)"
+      },
+      {
+        "name": "n8n-io/n8n",
+        "url": "https://github.com/n8n-io/n8n",
+        "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+        "language": "TypeScript",
+        "stars": 181043,
+        "source": "GitHub Top (TypeScript)"
+      },
+      {
+        "name": "yangshun/tech-interview-handbook",
+        "url": "https://github.com/yangshun/tech-interview-handbook",
+        "description": "Curated coding interview preparation materials for busy software engineers",
+        "language": "TypeScript",
+        "stars": 138359,
+        "source": "GitHub Top (TypeScript)"
+      },
+      {
+        "name": "langgenius/dify",
+        "url": "https://github.com/langgenius/dify",
+        "description": "Production-ready platform for agentic workflow development.",
+        "language": "TypeScript",
+        "stars": 134431,
+        "source": "GitHub Top (TypeScript)"
+      },
+      {
+        "name": "anomalyco/opencode",
+        "url": "https://github.com/anomalyco/opencode",
+        "description": "The open source coding agent.",
+        "language": "TypeScript",
+        "stars": 130267,
+        "source": "GitHub Top (TypeScript)"
+      },
+      {
+        "name": "excalidraw/excalidraw",
+        "url": "https://github.com/excalidraw/excalidraw",
+        "description": "Virtual whiteboard for sketching hand-drawn like diagrams",
+        "language": "TypeScript",
+        "stars": 119557,
+        "source": "GitHub Top (TypeScript)"
+      }
+    ],
+    "Go": [
+      {
+        "name": "avelino/awesome-go",
+        "url": "https://github.com/avelino/awesome-go",
+        "description": "A curated list of awesome Go frameworks, libraries and software",
+        "language": "Go",
+        "stars": 168228,
+        "source": "GitHub Top (Go)"
+      },
+      {
+        "name": "ollama/ollama",
+        "url": "https://github.com/ollama/ollama",
+        "description": "Get up and running with Kimi-K2.5, GLM-5, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+        "language": "Go",
+        "stars": 166152,
+        "source": "GitHub Top (Go)"
+      },
+      {
+        "name": "golang/go",
+        "url": "https://github.com/golang/go",
+        "description": "The Go programming language",
+        "language": "Go",
+        "stars": 133161,
+        "source": "GitHub Top (Go)"
+      },
+      {
+        "name": "kubernetes/kubernetes",
+        "url": "https://github.com/kubernetes/kubernetes",
+        "description": "Production-Grade Container Scheduling and Management",
+        "language": "Go",
+        "stars": 121349,
+        "source": "GitHub Top (Go)"
+      },
+      {
+        "name": "fatedier/frp",
+        "url": "https://github.com/fatedier/frp",
+        "description": "A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.",
+        "language": "Go",
+        "stars": 105592,
+        "source": "GitHub Top (Go)"
+      },
+      {
+        "name": "gin-gonic/gin",
+        "url": "https://github.com/gin-gonic/gin",
+        "description": "Gin is a high-performance HTTP web framework written in Go. It provides a Martini-like API but with significantly better performance\u2014up to 40 times faster\u2014thanks to httprouter. Gi\u2026",
+        "language": "Go",
+        "stars": 88311,
+        "source": "GitHub Top (Go)"
+      },
+      {
+        "name": "gohugoio/hugo",
+        "url": "https://github.com/gohugoio/hugo",
+        "description": "The world\u2019s fastest framework for building websites.",
+        "language": "Go",
+        "stars": 87270,
+        "source": "GitHub Top (Go)"
+      },
+      {
+        "name": "syncthing/syncthing",
+        "url": "https://github.com/syncthing/syncthing",
+        "description": "Open Source Continuous File Synchronization",
+        "language": "Go",
+        "stars": 81110,
+        "source": "GitHub Top (Go)"
+      },
+      {
+        "name": "junegunn/fzf",
+        "url": "https://github.com/junegunn/fzf",
+        "description": ":cherry_blossom: A command-line fuzzy finder",
+        "language": "Go",
+        "stars": 78981,
+        "source": "GitHub Top (Go)"
+      },
+      {
+        "name": "jesseduffield/lazygit",
+        "url": "https://github.com/jesseduffield/lazygit",
+        "description": "simple terminal UI for git commands",
+        "language": "Go",
+        "stars": 75028,
+        "source": "GitHub Top (Go)"
+      }
+    ],
+    "Rust": [
+      {
+        "name": "rust-lang/rust",
+        "url": "https://github.com/rust-lang/rust",
+        "description": "Empowering everyone to build reliable and efficient software.",
+        "language": "Rust",
+        "stars": 111491,
+        "source": "GitHub Top (Rust)"
+      },
+      {
+        "name": "rustdesk/rustdesk",
+        "url": "https://github.com/rustdesk/rustdesk",
+        "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
+        "language": "Rust",
+        "stars": 110003,
+        "source": "GitHub Top (Rust)"
+      },
+      {
+        "name": "denoland/deno",
+        "url": "https://github.com/denoland/deno",
+        "description": "A modern runtime for JavaScript and TypeScript.",
+        "language": "Rust",
+        "stars": 106442,
+        "source": "GitHub Top (Rust)"
+      },
+      {
+        "name": "tauri-apps/tauri",
+        "url": "https://github.com/tauri-apps/tauri",
+        "description": "Build smaller, faster, and more secure desktop and mobile applications with a web frontend.",
+        "language": "Rust",
+        "stars": 104605,
+        "source": "GitHub Top (Rust)"
+      },
+      {
+        "name": "astral-sh/uv",
+        "url": "https://github.com/astral-sh/uv",
+        "description": "An extremely fast Python package and project manager, written in Rust.",
+        "language": "Rust",
+        "stars": 82017,
+        "source": "GitHub Top (Rust)"
+      },
+      {
+        "name": "zed-industries/zed",
+        "url": "https://github.com/zed-industries/zed",
+        "description": "Code at the speed of thought \u2013 Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
+        "language": "Rust",
+        "stars": 77883,
+        "source": "GitHub Top (Rust)"
+      },
+      {
+        "name": "unionlabs/union",
+        "url": "https://github.com/unionlabs/union",
+        "description": "The trust-minimized, zero-knowledge bridging protocol, designed for censorship resistance, extremely high security, and usage in decentralized finance.",
+        "language": "Rust",
+        "stars": 74196,
+        "source": "GitHub Top (Rust)"
+      },
+      {
+        "name": "openai/codex",
+        "url": "https://github.com/openai/codex",
+        "description": "Lightweight coding agent that runs in your terminal",
+        "language": "Rust",
+        "stars": 67550,
+        "source": "GitHub Top (Rust)"
+      },
+      {
+        "name": "alacritty/alacritty",
+        "url": "https://github.com/alacritty/alacritty",
+        "description": "A cross-platform, OpenGL terminal emulator.",
+        "language": "Rust",
+        "stars": 63121,
+        "source": "GitHub Top (Rust)"
+      },
+      {
+        "name": "rust-lang/rustlings",
+        "url": "https://github.com/rust-lang/rustlings",
+        "description": ":crab: Small exercises to get you used to reading and writing Rust code!",
+        "language": "Rust",
+        "stars": 62295,
+        "source": "GitHub Top (Rust)"
+      }
+    ],
+    "Java": [
+      {
+        "name": "Snailclimb/JavaGuide",
+        "url": "https://github.com/Snailclimb/JavaGuide",
+        "description": "Java \u9762\u8bd5 & \u540e\u7aef\u901a\u7528\u9762\u8bd5\u6307\u5357\uff0c\u8986\u76d6\u8ba1\u7b97\u673a\u57fa\u7840\u3001\u6570\u636e\u5e93\u3001\u5206\u5e03\u5f0f\u3001\u9ad8\u5e76\u53d1\u4e0e\u7cfb\u7edf\u8bbe\u8ba1\u3002\u51c6\u5907\u540e\u7aef\u6280\u672f\u9762\u8bd5\uff0c\u9996\u9009 JavaGuide\uff01",
+        "language": "Java",
+        "stars": 154475,
+        "source": "GitHub Top (Java)"
+      },
+      {
+        "name": "krahets/hello-algo",
+        "url": "https://github.com/krahets/hello-algo",
+        "description": "\u300aHello \u7b97\u6cd5\u300b\uff1a\u52a8\u753b\u56fe\u89e3\u3001\u4e00\u952e\u8fd0\u884c\u7684\u6570\u636e\u7ed3\u6784\u4e0e\u7b97\u6cd5\u6559\u7a0b\u3002\u652f\u6301\u7b80\u4e2d\u3001\u7e41\u4e2d\u3001English\u3001\u65e5\u672c\u8a9e\uff0c\u63d0\u4f9b Python, Java, C++, C, C#, JS, Go, Swift, Rust, Ruby, Kotlin, TS, Dart \u7b49\u4ee3\u7801\u5b9e\u73b0",
+        "language": "Java",
+        "stars": 123908,
+        "source": "GitHub Top (Java)"
+      },
+      {
+        "name": "GrowingGit/GitHub-Chinese-Top-Charts",
+        "url": "https://github.com/GrowingGit/GitHub-Chinese-Top-Charts",
+        "description": ":cn: GitHub\u4e2d\u6587\u6392\u884c\u699c\uff0c\u5404\u8bed\u8a00\u5206\u8bbe\u300c\u8f6f\u4ef6 | \u8d44\u6599\u300d\u699c\u5355\uff0c\u7cbe\u51c6\u5b9a\u4f4d\u4e2d\u6587\u597d\u9879\u76ee\u3002\u5404\u53d6\u6240\u9700\uff0c\u9ad8\u6548\u5b66\u4e60\u3002",
+        "language": "Java",
+        "stars": 107087,
+        "source": "GitHub Top (Java)"
+      },
+      {
+        "name": "iluwatar/java-design-patterns",
+        "url": "https://github.com/iluwatar/java-design-patterns",
+        "description": "Design patterns implemented in Java",
+        "language": "Java",
+        "stars": 93834,
+        "source": "GitHub Top (Java)"
+      },
+      {
+        "name": "macrozheng/mall",
+        "url": "https://github.com/macrozheng/mall",
+        "description": "mall\u9879\u76ee\u662f\u4e00\u5957\u7535\u5546\u7cfb\u7edf\uff0c\u5305\u62ec\u524d\u53f0\u5546\u57ce\u7cfb\u7edf\u53ca\u540e\u53f0\u7ba1\u7406\u7cfb\u7edf\uff0c\u57fa\u4e8eSpring Boot+MyBatis\u5b9e\u73b0\uff0c\u91c7\u7528Docker\u5bb9\u5668\u5316\u90e8\u7f72\u3002 \u524d\u53f0\u5546\u57ce\u7cfb\u7edf\u5305\u542b\u9996\u9875\u95e8\u6237\u3001\u5546\u54c1\u63a8\u8350\u3001\u5546\u54c1\u641c\u7d22\u3001\u5546\u54c1\u5c55\u793a\u3001\u8d2d\u7269\u8f66\u3001\u8ba2\u5355\u6d41\u7a0b\u3001\u4f1a\u5458\u4e2d\u5fc3\u3001\u5ba2\u6237\u670d\u52a1\u3001\u5e2e\u52a9\u4e2d\u5fc3\u7b49\u6a21\u5757\u3002 \u540e\u53f0\u7ba1\u7406\u7cfb\u7edf\u5305\u542b\u5546\u54c1\u7ba1\u7406\u3001\u8ba2\u5355\u7ba1\u7406\u3001\u4f1a\u5458\u7ba1\u7406\u3001\u4fc3\u9500\u7ba1\u7406\u3001\u8fd0\u8425\u7ba1\u7406\u3001\u5185\u5bb9\u7ba1\u7406\u3001\u7edf\u8ba1\u62a5\u8868\u3001\u8d22\u52a1\u7ba1\u7406\u3001\u6743\u9650\u7ba1\u7406\u3001\u8bbe\u2026",
+        "language": "Java",
+        "stars": 83238,
+        "source": "GitHub Top (Java)"
+      },
+      {
+        "name": "spring-projects/spring-boot",
+        "url": "https://github.com/spring-projects/spring-boot",
+        "description": "Spring Boot helps you to create Spring-powered, production-grade applications and services with absolute minimum fuss.",
+        "language": "Java",
+        "stars": 80308,
+        "source": "GitHub Top (Java)"
+      },
+      {
+        "name": "doocs/advanced-java",
+        "url": "https://github.com/doocs/advanced-java",
+        "description": "\ud83d\ude2e Core Interview Questions & Answers For Experienced Java(Backend) Developers | \u4e92\u8054\u7f51 Java \u5de5\u7a0b\u5e08\u8fdb\u9636\u77e5\u8bc6\u5b8c\u5168\u626b\u76f2\uff1a\u6db5\u76d6\u9ad8\u5e76\u53d1\u3001\u5206\u5e03\u5f0f\u3001\u9ad8\u53ef\u7528\u3001\u5fae\u670d\u52a1\u3001\u6d77\u91cf\u6570\u636e\u5904\u7406\u7b49\u9886\u57df\u77e5\u8bc6",
+        "language": "Java",
+        "stars": 78920,
+        "source": "GitHub Top (Java)"
+      },
+      {
+        "name": "MisterBooo/LeetCodeAnimation",
+        "url": "https://github.com/MisterBooo/LeetCodeAnimation",
+        "description": "Demonstrate all the questions on LeetCode in the form of animation.\uff08\u7528\u52a8\u753b\u7684\u5f62\u5f0f\u5448\u73b0\u89e3LeetCode\u9898\u76ee\u7684\u601d\u8def\uff09",
+        "language": "Java",
+        "stars": 76699,
+        "source": "GitHub Top (Java)"
+      },
+      {
+        "name": "elastic/elasticsearch",
+        "url": "https://github.com/elastic/elasticsearch",
+        "description": "Free and Open Source, Distributed, RESTful Search Engine",
+        "language": "Java",
+        "stars": 76393,
+        "source": "GitHub Top (Java)"
+      },
+      {
+        "name": "NationalSecurityAgency/ghidra",
+        "url": "https://github.com/NationalSecurityAgency/ghidra",
+        "description": "Ghidra is a software reverse engineering (SRE) framework",
+        "language": "Java",
+        "stars": 66143,
+        "source": "GitHub Top (Java)"
+      }
+    ],
+    "C++": [
+      {
+        "name": "tensorflow/tensorflow",
+        "url": "https://github.com/tensorflow/tensorflow",
+        "description": "An Open Source Machine Learning Framework for Everyone",
+        "language": "C++",
+        "stars": 194339,
+        "source": "GitHub Top (C++)"
+      },
+      {
+        "name": "facebook/react-native",
+        "url": "https://github.com/facebook/react-native",
+        "description": "A framework for building native applications using React",
+        "language": "C++",
+        "stars": 125634,
+        "source": "GitHub Top (C++)"
+      },
+      {
+        "name": "electron/electron",
+        "url": "https://github.com/electron/electron",
+        "description": ":electron: Build cross-platform desktop apps with JavaScript, HTML, and CSS",
+        "language": "C++",
+        "stars": 120621,
+        "source": "GitHub Top (C++)"
+      },
+      {
+        "name": "godotengine/godot",
+        "url": "https://github.com/godotengine/godot",
+        "description": "Godot Engine \u2013 Multi-platform 2D and 3D game engine",
+        "language": "C++",
+        "stars": 108455,
+        "source": "GitHub Top (C++)"
+      },
+      {
+        "name": "microsoft/terminal",
+        "url": "https://github.com/microsoft/terminal",
+        "description": "The new Windows Terminal and the original Windows console host, all in the same place!",
+        "language": "C++",
+        "stars": 102362,
+        "source": "GitHub Top (C++)"
+      },
+      {
+        "name": "ggml-org/llama.cpp",
+        "url": "https://github.com/ggml-org/llama.cpp",
+        "description": "LLM inference in C/C++",
+        "language": "C++",
+        "stars": 99312,
+        "source": "GitHub Top (C++)"
+      },
+      {
+        "name": "bitcoin/bitcoin",
+        "url": "https://github.com/bitcoin/bitcoin",
+        "description": "Bitcoin Core integration/staging tree",
+        "language": "C++",
+        "stars": 88612,
+        "source": "GitHub Top (C++)"
+      },
+      {
+        "name": "opencv/opencv",
+        "url": "https://github.com/opencv/opencv",
+        "description": "Open Source Computer Vision Library",
+        "language": "C++",
+        "stars": 86790,
+        "source": "GitHub Top (C++)"
+      },
+      {
+        "name": "nomic-ai/gpt4all",
+        "url": "https://github.com/nomic-ai/gpt4all",
+        "description": "GPT4All: Run Local LLMs on Any Device. Open-source and available for commercial use.",
+        "language": "C++",
+        "stars": 77237,
+        "source": "GitHub Top (C++)"
+      },
+      {
+        "name": "tesseract-ocr/tesseract",
+        "url": "https://github.com/tesseract-ocr/tesseract",
+        "description": "Tesseract Open Source OCR Engine (main repository)",
+        "language": "C++",
+        "stars": 73116,
+        "source": "GitHub Top (C++)"
+      }
+    ],
+    "C#": [
+      {
+        "name": "microsoft/PowerToys",
+        "url": "https://github.com/microsoft/PowerToys",
+        "description": "Microsoft PowerToys is a collection of utilities that supercharge productivity and customization on Windows",
+        "language": "C#",
+        "stars": 130937,
+        "source": "GitHub Top (C#)"
+      },
+      {
+        "name": "2dust/v2rayN",
+        "url": "https://github.com/2dust/v2rayN",
+        "description": "A GUI client for Windows, Linux and macOS, support Xray and sing-box and others",
+        "language": "C#",
+        "stars": 99757,
+        "source": "GitHub Top (C#)"
+      },
+      {
+        "name": "shadowsocks/shadowsocks-windows",
+        "url": "https://github.com/shadowsocks/shadowsocks-windows",
+        "description": "A C# port of shadowsocks",
+        "language": "C#",
+        "stars": 59283,
+        "source": "GitHub Top (C#)"
+      },
+      {
+        "name": "PowerShell/PowerShell",
+        "url": "https://github.com/PowerShell/PowerShell",
+        "description": "PowerShell for every system!",
+        "language": "C#",
+        "stars": 52128,
+        "source": "GitHub Top (C#)"
+      },
+      {
+        "name": "jellyfin/jellyfin",
+        "url": "https://github.com/jellyfin/jellyfin",
+        "description": "The Free Software Media System - Server Backend & API",
+        "language": "C#",
+        "stars": 49627,
+        "source": "GitHub Top (C#)"
+      },
+      {
+        "name": "files-community/Files",
+        "url": "https://github.com/files-community/Files",
+        "description": "A modern file manager that helps users organize their files and folders.",
+        "language": "C#",
+        "stars": 42669,
+        "source": "GitHub Top (C#)"
+      },
+      {
+        "name": "dotnet/aspnetcore",
+        "url": "https://github.com/dotnet/aspnetcore",
+        "description": "ASP.NET Core is a cross-platform .NET framework for building modern cloud-based web applications on Windows, Mac, or Linux.",
+        "language": "C#",
+        "stars": 37789,
+        "source": "GitHub Top (C#)"
+      },
+      {
+        "name": "huiyadanli/RevokeMsgPatcher",
+        "url": "https://github.com/huiyadanli/RevokeMsgPatcher",
+        "description": ":trollface: A hex editor for WeChat/QQ/TIM - PC\u7248\u5fae\u4fe1/QQ/TIM\u9632\u64a4\u56de\u8865\u4e01\uff08\u6211\u5df2\u7ecf\u770b\u5230\u4e86\uff0c\u64a4\u56de\u4e5f\u6ca1\u7528\u4e86\uff09",
+        "language": "C#",
+        "stars": 37245,
+        "source": "GitHub Top (C#)"
+      },
+      {
+        "name": "ShareX/ShareX",
+        "url": "https://github.com/ShareX/ShareX",
+        "description": "ShareX is a free and open-source application that enables users to capture or record any area of their screen with a single keystroke. It also supports uploading images, text, and\u2026",
+        "language": "C#",
+        "stars": 35990,
+        "source": "GitHub Top (C#)"
+      },
+      {
+        "name": "DevToys-app/DevToys",
+        "url": "https://github.com/DevToys-app/DevToys",
+        "description": "A Swiss Army knife for developers.",
+        "language": "C#",
+        "stars": 31114,
+        "source": "GitHub Top (C#)"
+      }
+    ],
+    "Swift": [
+      {
+        "name": "swiftlang/swift",
+        "url": "https://github.com/swiftlang/swift",
+        "description": "The Swift Programming Language",
+        "language": "Swift",
+        "stars": 69880,
+        "source": "GitHub Top (Swift)"
+      },
+      {
+        "name": "vsouza/awesome-ios",
+        "url": "https://github.com/vsouza/awesome-ios",
+        "description": "A curated list of awesome iOS ecosystem, including Objective-C and Swift Projects",
+        "language": "Swift",
+        "stars": 51616,
+        "source": "GitHub Top (Swift)"
+      },
+      {
+        "name": "iina/iina",
+        "url": "https://github.com/iina/iina",
+        "description": "The modern video player for macOS.",
+        "language": "Swift",
+        "stars": 44207,
+        "source": "GitHub Top (Swift)"
+      },
+      {
+        "name": "Alamofire/Alamofire",
+        "url": "https://github.com/Alamofire/Alamofire",
+        "description": "Elegant HTTP Networking in Swift",
+        "language": "Swift",
+        "stars": 42366,
+        "source": "GitHub Top (Swift)"
+      },
+      {
+        "name": "exelban/stats",
+        "url": "https://github.com/exelban/stats",
+        "description": "macOS system monitor in your menu bar",
+        "language": "Swift",
+        "stars": 37342,
+        "source": "GitHub Top (Swift)"
+      },
+      {
+        "name": "utmapp/UTM",
+        "url": "https://github.com/utmapp/UTM",
+        "description": "Virtual machines for iOS and macOS",
+        "language": "Swift",
+        "stars": 33400,
+        "source": "GitHub Top (Swift)"
+      },
+      {
+        "name": "shadowsocks/ShadowsocksX-NG",
+        "url": "https://github.com/shadowsocks/ShadowsocksX-NG",
+        "description": "Next Generation of ShadowsocksX",
+        "language": "Swift",
+        "stars": 32914,
+        "source": "GitHub Top (Swift)"
+      },
+      {
+        "name": "MonitorControl/MonitorControl",
+        "url": "https://github.com/MonitorControl/MonitorControl",
+        "description": "\ud83d\udda5 Control your display's brightness & volume on your Mac as if it was a native Apple Display. Use Apple Keyboard keys or custom shortcuts. Shows the native macOS OSDs.",
+        "language": "Swift",
+        "stars": 32790,
+        "source": "GitHub Top (Swift)"
+      },
+      {
+        "name": "kodecocodes/swift-algorithm-club",
+        "url": "https://github.com/kodecocodes/swift-algorithm-club",
+        "description": "Algorithms and data structures in Swift, with explanations!",
+        "language": "Swift",
+        "stars": 29136,
+        "source": "GitHub Top (Swift)"
+      },
+      {
+        "name": "rxhanson/Rectangle",
+        "url": "https://github.com/rxhanson/Rectangle",
+        "description": "Move and resize windows on macOS with keyboard shortcuts and snap areas",
+        "language": "Swift",
+        "stars": 28643,
+        "source": "GitHub Top (Swift)"
+      }
+    ],
+    "Kotlin": [
+      {
+        "name": "topjohnwu/Magisk",
+        "url": "https://github.com/topjohnwu/Magisk",
+        "description": "The Magic Mask for Android",
+        "language": "Kotlin",
+        "stars": 59515,
+        "source": "GitHub Top (Kotlin)"
+      },
+      {
+        "name": "2dust/v2rayNG",
+        "url": "https://github.com/2dust/v2rayNG",
+        "description": "A V2Ray client for Android, support Xray core and v2fly core",
+        "language": "Kotlin",
+        "stars": 52736,
+        "source": "GitHub Top (Kotlin)"
+      },
+      {
+        "name": "JetBrains/kotlin",
+        "url": "https://github.com/JetBrains/kotlin",
+        "description": "The Kotlin Programming Language.",
+        "language": "Kotlin",
+        "stars": 52500,
+        "source": "GitHub Top (Kotlin)"
+      },
+      {
+        "name": "square/okhttp",
+        "url": "https://github.com/square/okhttp",
+        "description": "Square\u2019s meticulous HTTP client for the JVM, Android, and GraalVM.",
+        "language": "Kotlin",
+        "stars": 46921,
+        "source": "GitHub Top (Kotlin)"
+      },
+      {
+        "name": "android/architecture-samples",
+        "url": "https://github.com/android/architecture-samples",
+        "description": "A collection of samples to discuss and showcase different architectural tools and patterns for Android apps.",
+        "language": "Kotlin",
+        "stars": 45615,
+        "source": "GitHub Top (Kotlin)"
+      },
+      {
+        "name": "gedoor/legado",
+        "url": "https://github.com/gedoor/legado",
+        "description": "Legado 3.0 Book Reader with powerful controls & full functions\u2764\ufe0f\u9605\u8bfb3.0, \u9605\u8bfb\u662f\u4e00\u6b3e\u53ef\u4ee5\u81ea\u5b9a\u4e49\u6765\u6e90\u9605\u8bfb\u7f51\u7edc\u5185\u5bb9\u7684\u5de5\u5177\uff0c\u4e3a\u5e7f\u5927\u7f51\u7edc\u6587\u5b66\u7231\u597d\u8005\u63d0\u4f9b\u4e00\u79cd\u65b9\u4fbf\u3001\u5feb\u6377\u8212\u9002\u7684\u8bd5\u8bfb\u4f53\u9a8c\u3002",
+        "language": "Kotlin",
+        "stars": 45119,
+        "source": "GitHub Top (Kotlin)"
+      },
+      {
+        "name": "bannedbook/fanqiang",
+        "url": "https://github.com/bannedbook/fanqiang",
+        "description": "\u7ffb\u5899-\u79d1\u5b66\u4e0a\u7f51",
+        "language": "Kotlin",
+        "stars": 42799,
+        "source": "GitHub Top (Kotlin)"
+      },
+      {
+        "name": "gkd-kit/gkd",
+        "url": "https://github.com/gkd-kit/gkd",
+        "description": "\u57fa\u4e8e\u65e0\u969c\u788d\uff0c\u9ad8\u7ea7\u9009\u62e9\u5668\uff0c\u8ba2\u9605\u89c4\u5219\u7684\u81ea\u5b9a\u4e49\u5c4f\u5e55\u70b9\u51fb\u5b89\u5353\u5e94\u7528 | An Android APP with custom screen tapping based on Accessibility, Advanced Selectors, and Subscription Rules",
+        "language": "Kotlin",
+        "stars": 37270,
+        "source": "GitHub Top (Kotlin)"
+      },
+      {
+        "name": "shadowsocks/shadowsocks-android",
+        "url": "https://github.com/shadowsocks/shadowsocks-android",
+        "description": "A shadowsocks client for Android",
+        "language": "Kotlin",
+        "stars": 36736,
+        "source": "GitHub Top (Kotlin)"
+      },
+      {
+        "name": "alibaba/p3c",
+        "url": "https://github.com/alibaba/p3c",
+        "description": "Alibaba Java Coding Guidelines pmd implements and IDE plugin",
+        "language": "Kotlin",
+        "stars": 30828,
+        "source": "GitHub Top (Kotlin)"
+      }
+    ]
+  },
   "reddit_repositories": [],
   "ai_news": [],
   "warnings": [
-    "Failed to fetch r/MachineLearning: Reddit returned non-JSON for r/MachineLearning: <body class=theme-beta><div><style>.theme-light,:root{--rem360:22.5rem;--rem320:20rem;--rem192:12rem;--rem144:9rem;--rem128:8rem;--rem96:6rem;--rem90:5.625rem;--rem88:5.5rem;--rem6",
-    "Failed to fetch r/LocalLLaMA: Reddit returned non-JSON for r/LocalLLaMA: <body class=theme-beta><div><style>.theme-light,:root{--rem360:22.5rem;--rem320:20rem;--rem192:12rem;--rem144:9rem;--rem128:8rem;--rem96:6rem;--rem90:5.625rem;--rem88:5.5rem;--rem6",
-    "Failed to fetch r/artificial: Reddit returned non-JSON for r/artificial: <body class=theme-beta><div><style>.theme-light,:root{--rem360:22.5rem;--rem320:20rem;--rem192:12rem;--rem144:9rem;--rem128:8rem;--rem96:6rem;--rem90:5.625rem;--rem88:5.5rem;--rem6",
-    "Failed to fetch r/singularity: Reddit returned non-JSON for r/singularity: <body class=theme-beta><div><style>.theme-light,:root{--rem360:22.5rem;--rem320:20rem;--rem192:12rem;--rem144:9rem;--rem128:8rem;--rem96:6rem;--rem90:5.625rem;--rem88:5.5rem;--rem6"
+    "Failed to fetch r/MachineLearning: HTTP 403 for https://www.reddit.com/r/MachineLearning/hot.json?limit=35",
+    "Failed to fetch r/LocalLLaMA: HTTP 403 for https://www.reddit.com/r/LocalLLaMA/hot.json?limit=35",
+    "Failed to fetch r/artificial: HTTP 403 for https://www.reddit.com/r/artificial/hot.json?limit=35",
+    "Failed to fetch r/singularity: HTTP 403 for https://www.reddit.com/r/singularity/hot.json?limit=35"
   ]
 }
