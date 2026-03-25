@@ -139,7 +139,11 @@ def reddit_posts(subreddit: str, listing: str = "hot", limit: int = 25) -> List[
     url = f"https://www.reddit.com/r/{subreddit}/{listing}.json?limit={limit}"
     cmd = [
         "curl",
-        "-sS",
+        "--silent",
+        "--show-error",
+        "--location",
+        "--max-time",
+        "30",
         "-A",
         USER_AGENT,
         "-H",
@@ -147,8 +151,17 @@ def reddit_posts(subreddit: str, listing: str = "hot", limit: int = 25) -> List[
         url,
     ]
     proc = subprocess.run(cmd, check=True, capture_output=True, text=True)
-    data = json.loads(proc.stdout)
+
+    try:
+        data = json.loads(proc.stdout)
+    except json.JSONDecodeError as exc:
+        snippet = (proc.stdout or "")[:180].replace("\n", " ")
+        raise RuntimeError(f"Reddit returned non-JSON for r/{subreddit}: {snippet}") from exc
+
     children = data.get("data", {}).get("children", [])
+    if not isinstance(children, list):
+        raise RuntimeError(f"Unexpected Reddit payload for r/{subreddit}")
+
     out = []
     for c in children:
         d = c.get("data", {})
@@ -172,12 +185,18 @@ def looks_like_ai_news(post: Dict[str, Any]) -> bool:
     return any(k in hay for k in AI_KEYWORDS)
 
 
-def collect_reddit_content() -> Tuple[List[Dict[str, Any]], List[Dict[str, Any]]]:
+def collect_reddit_content() -> Tuple[List[Dict[str, Any]], List[Dict[str, Any]], List[str]]:
     repo_map: Dict[str, Dict[str, Any]] = {}
     news_items: List[Dict[str, Any]] = []
+    warnings: List[str] = []
 
     for sr in SUBREDDITS:
-        posts = reddit_posts(sr, listing="hot", limit=35)
+        try:
+            posts = reddit_posts(sr, listing="hot", limit=35)
+        except Exception as e:
+            warnings.append(f"Failed to fetch r/{sr}: {e}")
+            continue
+
         for post in posts:
             slug = extract_repo_slug(post.get("url", ""))
             if slug:
@@ -215,7 +234,7 @@ def collect_reddit_content() -> Tuple[List[Dict[str, Any]], List[Dict[str, Any]]
     )[:10]
 
     news_items = sorted(news_items, key=lambda n: n.get("score", 0), reverse=True)[:20]
-    return reddit_repos, news_items
+    return reddit_repos, news_items, warnings
 
 
 def archive_previous_index(now: dt.datetime) -> Optional[Path]:
@@ -264,6 +283,7 @@ def write_html(
     reddit_repos: List[Dict[str, Any]],
     news: List[Dict[str, Any]],
     archived_path: Optional[Path],
+    warnings: List[str],
 ) -> None:
     generated_str = generated_at_utc.strftime("%Y-%m-%d %H:%M:%S UTC")
     archive_note = ""
@@ -273,6 +293,10 @@ def write_html(
     gh_html = "\n".join(render_repo_row(r) for r in gh_repos) or "<p>No GitHub repos found.</p>"
     rr_html = "\n".join(render_repo_row(r) for r in reddit_repos) or "<p>No Reddit-linked repos found.</p>"
     news_html = "\n".join(render_news_row(n) for n in news) or "<p>No news found.</p>"
+    warnings_html = ""
+    if warnings:
+        items = "".join(f"<li>{html.escape(w)}</li>" for w in warnings)
+        warnings_html = f"<section><h2>Crawler Warnings</h2><ul>{items}</ul></section>"
 
     page = f"""<!doctype html>
 <html lang=\"en\">
@@ -314,6 +338,8 @@ def write_html(
       <h2>AI / LLM / AI Research News (Reddit)</h2>
       <div class=\"grid\">{news_html}</div>
     </section>
+
+    {warnings_html}
   </main>
 </body>
 </html>
@@ -327,6 +353,7 @@ def write_data_json(
     gh_repos: List[Dict[str, Any]],
     reddit_repos: List[Dict[str, Any]],
     news: List[Dict[str, Any]],
+    warnings: List[str],
 ) -> None:
     DATA_DIR.mkdir(parents=True, exist_ok=True)
     payload = {
@@ -334,6 +361,7 @@ def write_data_json(
         "github_trending": gh_repos,
         "reddit_repositories": reddit_repos,
         "ai_news": news,
+        "warnings": warnings,
     }
     DATA_PATH.write_text(json.dumps(payload, indent=2), encoding="utf-8")
 
@@ -343,15 +371,19 @@ def main() -> int:
 
     archived = archive_previous_index(now)
     gh_repos = github_trending_repos(top_n=10)
-    reddit_repos, news = collect_reddit_content()
+    reddit_repos, news, warnings = collect_reddit_content()
 
-    write_html(now, gh_repos, reddit_repos, news, archived)
-    write_data_json(now, gh_repos, reddit_repos, news)
+    write_html(now, gh_repos, reddit_repos, news, archived, warnings)
+    write_data_json(now, gh_repos, reddit_repos, news, warnings)
 
     print("Built index.html and data/latest.json")
     if archived:
         print(f"Archived previous index to {archived.relative_to(ROOT)}")
     print(f"GitHub repos: {len(gh_repos)}, Reddit repos: {len(reddit_repos)}, News: {len(news)}")
+    if warnings:
+        print(f"Warnings: {len(warnings)}")
+        for w in warnings:
+            print(f" - {w}")
     return 0
 
 
