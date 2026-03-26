@@ -1,20 +1,12 @@
 {
-  "generated_at_utc": "2026-03-25T20:17:59Z",
+  "generated_at_utc": "2026-03-26T01:31:21Z",
   "github_trending": [
     {
       "name": "slavingia/skills",
       "url": "https://github.com/slavingia/skills",
       "description": "Claude Code skills based on The Minimalist Entrepreneur by Sahil Lavingia",
       "language": "Unknown",
-      "stars": 2175,
-      "source": "GitHub Trending"
-    },
-    {
-      "name": "danveloper/flash-moe",
-      "url": "https://github.com/danveloper/flash-moe",
-      "description": "Running a big model on a small laptop",
-      "language": "Objective-C",
-      "stars": 1973,
+      "stars": 2492,
       "source": "GitHub Trending"
     },
     {
@@ -22,7 +14,7 @@
       "url": "https://github.com/dontbesilent2025/dbskill",
       "description": "dontbesilent \u7684\u5546\u4e1a\u8bca\u65ad Skills for Claude Code",
       "language": "Unknown",
-      "stars": 1534,
+      "stars": 1542,
       "source": "GitHub Trending"
     },
     {
@@ -30,15 +22,7 @@
       "url": "https://github.com/zarazhangrui/codebase-to-course",
       "description": "A Claude Code skill that turns any codebase into a beautiful, interactive single-page HTML course for non-technical vibe coders.",
       "language": "Unknown",
-      "stars": 1445,
-      "source": "GitHub Trending"
-    },
-    {
-      "name": "eze-is/web-access",
-      "url": "https://github.com/eze-is/web-access",
-      "description": "\u7ed9 Claude Code \u88c5\u4e0a\u5b8c\u6574\u8054\u7f51\u80fd\u529b\u7684 skill\uff1a\u4e09\u5c42\u901a\u9053\u8c03\u5ea6 + \u6d4f\u89c8\u5668 CDP + \u5e76\u884c\u5206\u6cbb",
-      "language": "JavaScript",
-      "stars": 1417,
+      "stars": 1509,
       "source": "GitHub Trending"
     },
     {
@@ -46,15 +30,7 @@
       "url": "https://github.com/louislva/claude-peers-mcp",
       "description": "Allow all your Claude Codes to message each other ad-hoc!",
       "language": "TypeScript",
-      "stars": 1185,
-      "source": "GitHub Trending"
-    },
-    {
-      "name": "lxf746/any-auto-register",
-      "url": "https://github.com/lxf746/any-auto-register",
-      "description": "No summary available.",
-      "language": "Python",
-      "stars": 1135,
+      "stars": 1201,
       "source": "GitHub Trending"
     },
     {
@@ -62,15 +38,7 @@
       "url": "https://github.com/math-inc/OpenGauss",
       "description": "No summary available.",
       "language": "Python",
-      "stars": 1085,
-      "source": "GitHub Trending"
-    },
-    {
-      "name": "BryanLunduke/DoesItAgeVerify",
-      "url": "https://github.com/BryanLunduke/DoesItAgeVerify",
-      "description": "The age verification status of Open Source Operating Systems",
-      "language": "Unknown",
-      "stars": 980,
+      "stars": 1088,
       "source": "GitHub Trending"
     },
     {
@@ -78,7 +46,39 @@
       "url": "https://github.com/truongduy2611/app-store-preflight-skills",
       "description": "AI agent skill to scan iOS/macOS projects for App Store rejection patterns before submission",
       "language": "Unknown",
-      "stars": 942,
+      "stars": 944,
+      "source": "GitHub Trending"
+    },
+    {
+      "name": "dou-jiang/codex-console",
+      "url": "https://github.com/dou-jiang/codex-console",
+      "description": "codex-console \u662f\u4e00\u4e2a\u96c6\u6210\u5316\u63a7\u5236\u53f0\u9879\u76ee\uff0c\u652f\u6301\u4efb\u52a1\u7ba1\u7406\u3001\u6279\u91cf\u5904\u7406\u3001\u6570\u636e\u5bfc\u51fa\u3001\u81ea\u52a8\u4e0a\u4f20\u3001\u65e5\u5fd7\u67e5\u770b\u4e0e\u6253\u5305\u652f\u6301\u3002",
+      "language": "Python",
+      "stars": 933,
+      "source": "GitHub Trending"
+    },
+    {
+      "name": "facebookresearch/HyperAgents",
+      "url": "https://github.com/facebookresearch/HyperAgents",
+      "description": "Self-referential self-improving agents that can optimize for any computable task",
+      "language": "Python",
+      "stars": 912,
+      "source": "GitHub Trending"
+    },
+    {
+      "name": "wong2/weixin-agent-sdk",
+      "url": "https://github.com/wong2/weixin-agent-sdk",
+      "description": "\u5fae\u4fe1Clawbot\u63a5\u5165\u4efb\u610fAgent",
+      "language": "TypeScript",
+      "stars": 892,
+      "source": "GitHub Trending"
+    },
+    {
+      "name": "HKUDS/OpenSpace",
+      "url": "https://github.com/HKUDS/OpenSpace",
+      "description": "\"OpenSpace: Make Your Agents: Smarter, Low-Cost, Self-Evolving\" -- Community: https://open-space.cloud/",
+      "language": "Python",
+      "stars": 879,
       "source": "GitHub Trending"
     }
   ],
@@ -89,7 +89,7 @@
         "url": "https://github.com/public-apis/public-apis",
         "description": "A collective list of free APIs",
         "language": "Python",
-        "stars": 416058,
+        "stars": 416110,
         "source": "GitHub Top (Python)"
       },
       {
@@ -97,7 +97,7 @@
         "url": "https://github.com/EbookFoundation/free-programming-books",
         "description": ":books: Freely available programming books",
         "language": "Python",
-        "stars": 384571,
+        "stars": 384581,
         "source": "GitHub Top (Python)"
       },
       {
@@ -105,7 +105,7 @@
         "url": "https://github.com/donnemartin/system-design-primer",
         "description": "Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.",
         "language": "Python",
-        "stars": 340203,
+        "stars": 340217,
         "source": "GitHub Top (Python)"
       },
       {
@@ -113,7 +113,7 @@
         "url": "https://github.com/vinta/awesome-python",
         "description": "An opinionated list of Python frameworks, libraries, tools, and resources.",
         "language": "Python",
-        "stars": 288960,
+        "stars": 288996,
         "source": "GitHub Top (Python)"
       },
       {
@@ -121,7 +121,7 @@
         "url": "https://github.com/TheAlgorithms/Python",
         "description": "All Algorithms implemented in Python",
         "language": "Python",
-        "stars": 219047,
+        "stars": 219054,
         "source": "GitHub Top (Python)"
       },
       {
@@ -129,7 +129,7 @@
         "url": "https://github.com/Significant-Gravitas/AutoGPT",
         "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
         "language": "Python",
-        "stars": 182825,
+        "stars": 182831,
         "source": "GitHub Top (Python)"
       },
       {
@@ -137,7 +137,7 @@
         "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
         "description": "Stable Diffusion web UI",
         "language": "Python",
-        "stars": 161990,
+        "stars": 162000,
         "source": "GitHub Top (Python)"
       },
       {
@@ -145,7 +145,7 @@
         "url": "https://github.com/huggingface/transformers",
         "description": "\ud83e\udd17 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
         "language": "Python",
-        "stars": 158400,
+        "stars": 158410,
         "source": "GitHub Top (Python)"
       },
       {
@@ -153,7 +153,7 @@
         "url": "https://github.com/yt-dlp/yt-dlp",
         "description": "A feature-rich command-line audio/video downloader",
         "language": "Python",
-        "stars": 153251,
+        "stars": 153277,
         "source": "GitHub Top (Python)"
       },
       {
@@ -161,7 +161,7 @@
         "url": "https://github.com/521xueweihan/HelloGitHub",
         "description": ":octocat: \u5206\u4eab GitHub \u4e0a\u6709\u8da3\u3001\u5165\u95e8\u7ea7\u7684\u5f00\u6e90\u9879\u76ee\u3002Share interesting, entry-level open source projects on GitHub.",
         "language": "Python",
-        "stars": 147422,
+        "stars": 147437,
         "source": "GitHub Top (Python)"
       }
     ],
@@ -171,7 +171,7 @@
         "url": "https://github.com/facebook/react",
         "description": "The library for web and native user interfaces.",
         "language": "JavaScript",
-        "stars": 244189,
+        "stars": 244195,
         "source": "GitHub Top (JavaScript)"
       },
       {
@@ -179,7 +179,7 @@
         "url": "https://github.com/trekhleb/javascript-algorithms",
         "description": "\ud83d\udcdd Algorithms and data structures implemented in JavaScript with explanations and links to further readings",
         "language": "JavaScript",
-        "stars": 195783,
+        "stars": 195785,
         "source": "GitHub Top (JavaScript)"
       },
       {
@@ -195,7 +195,7 @@
         "url": "https://github.com/vercel/next.js",
         "description": "The React Framework",
         "language": "JavaScript",
-        "stars": 138472,
+        "stars": 138470,
         "source": "GitHub Top (JavaScript)"
       },
       {
@@ -203,7 +203,7 @@
         "url": "https://github.com/Chalarangelo/30-seconds-of-code",
         "description": "Coding articles to level up your development skills",
         "language": "JavaScript",
-        "stars": 127216,
+        "stars": 127218,
         "source": "GitHub Top (JavaScript)"
       },
       {
@@ -211,7 +211,7 @@
         "url": "https://github.com/nodejs/node",
         "description": "Node.js JavaScript runtime \u2728\ud83d\udc22\ud83d\ude80\u2728",
         "language": "JavaScript",
-        "stars": 116425,
+        "stars": 116427,
         "source": "GitHub Top (JavaScript)"
       },
       {
@@ -219,7 +219,7 @@
         "url": "https://github.com/mrdoob/three.js",
         "description": "JavaScript 3D Library.",
         "language": "JavaScript",
-        "stars": 111558,
+        "stars": 111560,
         "source": "GitHub Top (JavaScript)"
       },
       {
@@ -235,7 +235,7 @@
         "url": "https://github.com/affaan-m/everything-claude-code",
         "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
         "language": "JavaScript",
-        "stars": 107621,
+        "stars": 108089,
         "source": "GitHub Top (JavaScript)"
       },
       {
@@ -243,7 +243,7 @@
         "url": "https://github.com/facebook/create-react-app",
         "description": "Set up a modern web app by running one command.",
         "language": "JavaScript",
-        "stars": 103805,
+        "stars": 103804,
         "source": "GitHub Top (JavaScript)"
       }
     ],
@@ -253,7 +253,7 @@
         "url": "https://github.com/freeCodeCamp/freeCodeCamp",
         "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
         "language": "TypeScript",
-        "stars": 438825,
+        "stars": 438831,
         "source": "GitHub Top (TypeScript)"
       },
       {
@@ -261,7 +261,7 @@
         "url": "https://github.com/kamranahmedse/developer-roadmap",
         "description": "Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
         "language": "TypeScript",
-        "stars": 351661,
+        "stars": 351658,
         "source": "GitHub Top (TypeScript)"
       },
       {
@@ -269,7 +269,7 @@
         "url": "https://github.com/openclaw/openclaw",
         "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. \ud83e\udd9e",
         "language": "TypeScript",
-        "stars": 335796,
+        "stars": 335991,
         "source": "GitHub Top (TypeScript)"
       },
       {
@@ -277,7 +277,7 @@
         "url": "https://github.com/vuejs/vue",
         "description": "This is the repo for Vue 2. For Vue 3, go to https://github.com/vuejs/core",
         "language": "TypeScript",
-        "stars": 209962,
+        "stars": 209959,
         "source": "GitHub Top (TypeScript)"
       },
       {
@@ -293,7 +293,7 @@
         "url": "https://github.com/n8n-io/n8n",
         "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
         "language": "TypeScript",
-        "stars": 181049,
+        "stars": 181080,
         "source": "GitHub Top (TypeScript)"
       },
       {
@@ -301,7 +301,7 @@
         "url": "https://github.com/yangshun/tech-interview-handbook",
         "description": "Curated coding interview preparation materials for busy software engineers",
         "language": "TypeScript",
-        "stars": 138360,
+        "stars": 138364,
         "source": "GitHub Top (TypeScript)"
       },
       {
@@ -309,7 +309,7 @@
         "url": "https://github.com/langgenius/dify",
         "description": "Production-ready platform for agentic workflow development.",
         "language": "TypeScript",
-        "stars": 134433,
+        "stars": 134446,
         "source": "GitHub Top (TypeScript)"
       },
       {
@@ -317,7 +317,7 @@
         "url": "https://github.com/anomalyco/opencode",
         "description": "The open source coding agent.",
         "language": "TypeScript",
-        "stars": 130277,
+        "stars": 130355,
         "source": "GitHub Top (TypeScript)"
       },
       {
@@ -325,7 +325,7 @@
         "url": "https://github.com/excalidraw/excalidraw",
         "description": "Virtual whiteboard for sketching hand-drawn like diagrams",
         "language": "TypeScript",
-        "stars": 119559,
+        "stars": 119568,
         "source": "GitHub Top (TypeScript)"
       }
     ],
@@ -335,7 +335,7 @@
         "url": "https://github.com/avelino/awesome-go",
         "description": "A curated list of awesome Go frameworks, libraries and software",
         "language": "Go",
-        "stars": 168232,
+        "stars": 168259,
         "source": "GitHub Top (Go)"
       },
       {
@@ -343,7 +343,7 @@
         "url": "https://github.com/ollama/ollama",
         "description": "Get up and running with Kimi-K2.5, GLM-5, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
         "language": "Go",
-        "stars": 166148,
+        "stars": 166159,
         "source": "GitHub Top (Go)"
       },
       {
@@ -351,7 +351,7 @@
         "url": "https://github.com/golang/go",
         "description": "The Go programming language",
         "language": "Go",
-        "stars": 133162,
+        "stars": 133165,
         "source": "GitHub Top (Go)"
       },
       {
@@ -359,7 +359,7 @@
         "url": "https://github.com/kubernetes/kubernetes",
         "description": "Production-Grade Container Scheduling and Management",
         "language": "Go",
-        "stars": 121349,
+        "stars": 121350,
         "source": "GitHub Top (Go)"
       },
       {
@@ -367,7 +367,7 @@
         "url": "https://github.com/fatedier/frp",
         "description": "A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.",
         "language": "Go",
-        "stars": 105592,
+        "stars": 105596,
         "source": "GitHub Top (Go)"
       },
       {
@@ -375,7 +375,7 @@
         "url": "https://github.com/gin-gonic/gin",
         "description": "Gin is a high-performance HTTP web framework written in Go. It provides a Martini-like API but with significantly better performance\u2014up to 40 times faster\u2014thanks to httprouter. Gi\u2026",
         "language": "Go",
-        "stars": 88310,
+        "stars": 88314,
         "source": "GitHub Top (Go)"
       },
       {
@@ -383,7 +383,7 @@
         "url": "https://github.com/gohugoio/hugo",
         "description": "The world\u2019s fastest framework for building websites.",
         "language": "Go",
-        "stars": 87269,
+        "stars": 87279,
         "source": "GitHub Top (Go)"
       },
       {
@@ -391,7 +391,7 @@
         "url": "https://github.com/syncthing/syncthing",
         "description": "Open Source Continuous File Synchronization",
         "language": "Go",
-        "stars": 81110,
+        "stars": 81115,
         "source": "GitHub Top (Go)"
       },
       {
@@ -399,7 +399,7 @@
         "url": "https://github.com/junegunn/fzf",
         "description": ":cherry_blossom: A command-line fuzzy finder",
         "language": "Go",
-        "stars": 78983,
+        "stars": 78989,
         "source": "GitHub Top (Go)"
       },
       {
@@ -407,7 +407,7 @@
         "url": "https://github.com/jesseduffield/lazygit",
         "description": "simple terminal UI for git commands",
         "language": "Go",
-        "stars": 75030,
+        "stars": 75040,
         "source": "GitHub Top (Go)"
       }
     ],
@@ -417,7 +417,7 @@
         "url": "https://github.com/rust-lang/rust",
         "description": "Empowering everyone to build reliable and efficient software.",
         "language": "Rust",
-        "stars": 111494,
+        "stars": 111501,
         "source": "GitHub Top (Rust)"
       },
       {
@@ -425,7 +425,7 @@
         "url": "https://github.com/rustdesk/rustdesk",
         "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
         "language": "Rust",
-        "stars": 110003,
+        "stars": 110007,
         "source": "GitHub Top (Rust)"
       },
       {
@@ -433,7 +433,7 @@
         "url": "https://github.com/denoland/deno",
         "description": "A modern runtime for JavaScript and TypeScript.",
         "language": "Rust",
-        "stars": 106442,
+        "stars": 106443,
         "source": "GitHub Top (Rust)"
       },
       {
@@ -441,7 +441,7 @@
         "url": "https://github.com/tauri-apps/tauri",
         "description": "Build smaller, faster, and more secure desktop and mobile applications with a web frontend.",
         "language": "Rust",
-        "stars": 104605,
+        "stars": 104610,
         "source": "GitHub Top (Rust)"
       },
       {
@@ -449,7 +449,7 @@
         "url": "https://github.com/astral-sh/uv",
         "description": "An extremely fast Python package and project manager, written in Rust.",
         "language": "Rust",
-        "stars": 82017,
+        "stars": 82036,
         "source": "GitHub Top (Rust)"
       },
       {
@@ -457,7 +457,7 @@
         "url": "https://github.com/zed-industries/zed",
         "description": "Code at the speed of thought \u2013 Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
         "language": "Rust",
-        "stars": 77884,
+        "stars": 77899,
         "source": "GitHub Top (Rust)"
       },
       {
@@ -465,7 +465,7 @@
         "url": "https://github.com/unionlabs/union",
         "description": "The trust-minimized, zero-knowledge bridging protocol, designed for censorship resistance, extremely high security, and usage in decentralized finance.",
         "language": "Rust",
-        "stars": 74195,
+        "stars": 74194,
         "source": "GitHub Top (Rust)"
       },
       {
@@ -473,7 +473,7 @@
         "url": "https://github.com/openai/codex",
         "description": "Lightweight coding agent that runs in your terminal",
         "language": "Rust",
-        "stars": 67552,
+        "stars": 67590,
         "source": "GitHub Top (Rust)"
       },
       {
@@ -481,7 +481,7 @@
         "url": "https://github.com/alacritty/alacritty",
         "description": "A cross-platform, OpenGL terminal emulator.",
         "language": "Rust",
-        "stars": 63121,
+        "stars": 63124,
         "source": "GitHub Top (Rust)"
       },
       {
@@ -489,7 +489,7 @@
         "url": "https://github.com/rust-lang/rustlings",
         "description": ":crab: Small exercises to get you used to reading and writing Rust code!",
         "language": "Rust",
-        "stars": 62295,
+        "stars": 62296,
         "source": "GitHub Top (Rust)"
       }
     ],
@@ -507,7 +507,7 @@
         "url": "https://github.com/krahets/hello-algo",
         "description": "\u300aHello \u7b97\u6cd5\u300b\uff1a\u52a8\u753b\u56fe\u89e3\u3001\u4e00\u952e\u8fd0\u884c\u7684\u6570\u636e\u7ed3\u6784\u4e0e\u7b97\u6cd5\u6559\u7a0b\u3002\u652f\u6301\u7b80\u4e2d\u3001\u7e41\u4e2d\u3001English\u3001\u65e5\u672c\u8a9e\uff0c\u63d0\u4f9b Python, Java, C++, C, C#, JS, Go, Swift, Rust, Ruby, Kotlin, TS, Dart \u7b49\u4ee3\u7801\u5b9e\u73b0",
         "language": "Java",
-        "stars": 123909,
+        "stars": 123921,
         "source": "GitHub Top (Java)"
       },
       {
@@ -515,7 +515,7 @@
         "url": "https://github.com/GrowingGit/GitHub-Chinese-Top-Charts",
         "description": ":cn: GitHub\u4e2d\u6587\u6392\u884c\u699c\uff0c\u5404\u8bed\u8a00\u5206\u8bbe\u300c\u8f6f\u4ef6 | \u8d44\u6599\u300d\u699c\u5355\uff0c\u7cbe\u51c6\u5b9a\u4f4d\u4e2d\u6587\u597d\u9879\u76ee\u3002\u5404\u53d6\u6240\u9700\uff0c\u9ad8\u6548\u5b66\u4e60\u3002",
         "language": "Java",
-        "stars": 107087,
+        "stars": 107086,
         "source": "GitHub Top (Java)"
       },
       {
@@ -523,7 +523,7 @@
         "url": "https://github.com/iluwatar/java-design-patterns",
         "description": "Design patterns implemented in Java",
         "language": "Java",
-        "stars": 93834,
+        "stars": 93835,
         "source": "GitHub Top (Java)"
       },
       {
@@ -531,7 +531,7 @@
         "url": "https://github.com/macrozheng/mall",
         "description": "mall\u9879\u76ee\u662f\u4e00\u5957\u7535\u5546\u7cfb\u7edf\uff0c\u5305\u62ec\u524d\u53f0\u5546\u57ce\u7cfb\u7edf\u53ca\u540e\u53f0\u7ba1\u7406\u7cfb\u7edf\uff0c\u57fa\u4e8eSpring Boot+MyBatis\u5b9e\u73b0\uff0c\u91c7\u7528Docker\u5bb9\u5668\u5316\u90e8\u7f72\u3002 \u524d\u53f0\u5546\u57ce\u7cfb\u7edf\u5305\u542b\u9996\u9875\u95e8\u6237\u3001\u5546\u54c1\u63a8\u8350\u3001\u5546\u54c1\u641c\u7d22\u3001\u5546\u54c1\u5c55\u793a\u3001\u8d2d\u7269\u8f66\u3001\u8ba2\u5355\u6d41\u7a0b\u3001\u4f1a\u5458\u4e2d\u5fc3\u3001\u5ba2\u6237\u670d\u52a1\u3001\u5e2e\u52a9\u4e2d\u5fc3\u7b49\u6a21\u5757\u3002 \u540e\u53f0\u7ba1\u7406\u7cfb\u7edf\u5305\u542b\u5546\u54c1\u7ba1\u7406\u3001\u8ba2\u5355\u7ba1\u7406\u3001\u4f1a\u5458\u7ba1\u7406\u3001\u4fc3\u9500\u7ba1\u7406\u3001\u8fd0\u8425\u7ba1\u7406\u3001\u5185\u5bb9\u7ba1\u7406\u3001\u7edf\u8ba1\u62a5\u8868\u3001\u8d22\u52a1\u7ba1\u7406\u3001\u6743\u9650\u7ba1\u7406\u3001\u8bbe\u2026",
         "language": "Java",
-        "stars": 83238,
+        "stars": 83237,
         "source": "GitHub Top (Java)"
       },
       {
@@ -539,7 +539,7 @@
         "url": "https://github.com/spring-projects/spring-boot",
         "description": "Spring Boot helps you to create Spring-powered, production-grade applications and services with absolute minimum fuss.",
         "language": "Java",
-        "stars": 80308,
+        "stars": 80309,
         "source": "GitHub Top (Java)"
       },
       {
@@ -547,7 +547,7 @@
         "url": "https://github.com/doocs/advanced-java",
         "description": "\ud83d\ude2e Core Interview Questions & Answers For Experienced Java(Backend) Developers | \u4e92\u8054\u7f51 Java \u5de5\u7a0b\u5e08\u8fdb\u9636\u77e5\u8bc6\u5b8c\u5168\u626b\u76f2\uff1a\u6db5\u76d6\u9ad8\u5e76\u53d1\u3001\u5206\u5e03\u5f0f\u3001\u9ad8\u53ef\u7528\u3001\u5fae\u670d\u52a1\u3001\u6d77\u91cf\u6570\u636e\u5904\u7406\u7b49\u9886\u57df\u77e5\u8bc6",
         "language": "Java",
-        "stars": 78920,
+        "stars": 78916,
         "source": "GitHub Top (Java)"
       },
       {
@@ -571,7 +571,7 @@
         "url": "https://github.com/NationalSecurityAgency/ghidra",
         "description": "Ghidra is a software reverse engineering (SRE) framework",
         "language": "Java",
-        "stars": 66143,
+        "stars": 66146,
         "source": "GitHub Top (Java)"
       }
     ],
@@ -581,7 +581,7 @@
         "url": "https://github.com/tensorflow/tensorflow",
         "description": "An Open Source Machine Learning Framework for Everyone",
         "language": "C++",
-        "stars": 194339,
+        "stars": 194344,
         "source": "GitHub Top (C++)"
       },
       {
@@ -589,7 +589,7 @@
         "url": "https://github.com/facebook/react-native",
         "description": "A framework for building native applications using React",
         "language": "C++",
-        "stars": 125634,
+        "stars": 125636,
         "source": "GitHub Top (C++)"
       },
       {
@@ -605,7 +605,7 @@
         "url": "https://github.com/godotengine/godot",
         "description": "Godot Engine \u2013 Multi-platform 2D and 3D game engine",
         "language": "C++",
-        "stars": 108456,
+        "stars": 108468,
         "source": "GitHub Top (C++)"
       },
       {
@@ -613,7 +613,7 @@
         "url": "https://github.com/microsoft/terminal",
         "description": "The new Windows Terminal and the original Windows console host, all in the same place!",
         "language": "C++",
-        "stars": 102362,
+        "stars": 102365,
         "source": "GitHub Top (C++)"
       },
       {
@@ -621,7 +621,7 @@
         "url": "https://github.com/ggml-org/llama.cpp",
         "description": "LLM inference in C/C++",
         "language": "C++",
-        "stars": 99313,
+        "stars": 99334,
         "source": "GitHub Top (C++)"
       },
       {
@@ -629,7 +629,7 @@
         "url": "https://github.com/bitcoin/bitcoin",
         "description": "Bitcoin Core integration/staging tree",
         "language": "C++",
-        "stars": 88612,
+        "stars": 88611,
         "source": "GitHub Top (C++)"
       },
       {
@@ -653,7 +653,7 @@
         "url": "https://github.com/tesseract-ocr/tesseract",
         "description": "Tesseract Open Source OCR Engine (main repository)",
         "language": "C++",
-        "stars": 73115,
+        "stars": 73117,
         "source": "GitHub Top (C++)"
       }
     ],
@@ -663,7 +663,7 @@
         "url": "https://github.com/microsoft/PowerToys",
         "description": "Microsoft PowerToys is a collection of utilities that supercharge productivity and customization on Windows",
         "language": "C#",
-        "stars": 130938,
+        "stars": 130946,
         "source": "GitHub Top (C#)"
       },
       {
@@ -671,7 +671,7 @@
         "url": "https://github.com/2dust/v2rayN",
         "description": "A GUI client for Windows, Linux and macOS, support Xray and sing-box and others",
         "language": "C#",
-        "stars": 99756,
+        "stars": 99763,
         "source": "GitHub Top (C#)"
       },
       {
@@ -687,7 +687,7 @@
         "url": "https://github.com/PowerShell/PowerShell",
         "description": "PowerShell for every system!",
         "language": "C#",
-        "stars": 52128,
+        "stars": 52130,
         "source": "GitHub Top (C#)"
       },
       {
@@ -695,7 +695,7 @@
         "url": "https://github.com/jellyfin/jellyfin",
         "description": "The Free Software Media System - Server Backend & API",
         "language": "C#",
-        "stars": 49629,
+        "stars": 49645,
         "source": "GitHub Top (C#)"
       },
       {
@@ -703,7 +703,7 @@
         "url": "https://github.com/files-community/Files",
         "description": "A modern file manager that helps users organize their files and folders.",
         "language": "C#",
-        "stars": 42669,
+        "stars": 42675,
         "source": "GitHub Top (C#)"
       },
       {
@@ -711,7 +711,7 @@
         "url": "https://github.com/dotnet/aspnetcore",
         "description": "ASP.NET Core is a cross-platform .NET framework for building modern cloud-based web applications on Windows, Mac, or Linux.",
         "language": "C#",
-        "stars": 37789,
+        "stars": 37791,
         "source": "GitHub Top (C#)"
       },
       {
@@ -727,7 +727,7 @@
         "url": "https://github.com/ShareX/ShareX",
         "description": "ShareX is a free and open-source application that enables users to capture or record any area of their screen with a single keystroke. It also supports uploading images, text, and\u2026",
         "language": "C#",
-        "stars": 35990,
+        "stars": 35992,
         "source": "GitHub Top (C#)"
       },
       {
@@ -735,7 +735,7 @@
         "url": "https://github.com/DevToys-app/DevToys",
         "description": "A Swiss Army knife for developers.",
         "language": "C#",
-        "stars": 31114,
+        "stars": 31113,
         "source": "GitHub Top (C#)"
       }
     ],
@@ -745,7 +745,7 @@
         "url": "https://github.com/swiftlang/swift",
         "description": "The Swift Programming Language",
         "language": "Swift",
-        "stars": 69880,
+        "stars": 69881,
         "source": "GitHub Top (Swift)"
       },
       {
@@ -753,7 +753,7 @@
         "url": "https://github.com/vsouza/awesome-ios",
         "description": "A curated list of awesome iOS ecosystem, including Objective-C and Swift Projects",
         "language": "Swift",
-        "stars": 51615,
+        "stars": 51614,
         "source": "GitHub Top (Swift)"
       },
       {
@@ -761,7 +761,7 @@
         "url": "https://github.com/iina/iina",
         "description": "The modern video player for macOS.",
         "language": "Swift",
-        "stars": 44207,
+        "stars": 44209,
         "source": "GitHub Top (Swift)"
       },
       {
@@ -769,7 +769,7 @@
         "url": "https://github.com/Alamofire/Alamofire",
         "description": "Elegant HTTP Networking in Swift",
         "language": "Swift",
-        "stars": 42365,
+        "stars": 42366,
         "source": "GitHub Top (Swift)"
       },
       {
@@ -777,7 +777,7 @@
         "url": "https://github.com/exelban/stats",
         "description": "macOS system monitor in your menu bar",
         "language": "Swift",
-        "stars": 37342,
+        "stars": 37346,
         "source": "GitHub Top (Swift)"
       },
       {
@@ -785,7 +785,7 @@
         "url": "https://github.com/utmapp/UTM",
         "description": "Virtual machines for iOS and macOS",
         "language": "Swift",
-        "stars": 33401,
+        "stars": 33404,
         "source": "GitHub Top (Swift)"
       },
       {
@@ -801,7 +801,7 @@
         "url": "https://github.com/MonitorControl/MonitorControl",
         "description": "\ud83d\udda5 Control your display's brightness & volume on your Mac as if it was a native Apple Display. Use Apple Keyboard keys or custom shortcuts. Shows the native macOS OSDs.",
         "language": "Swift",
-        "stars": 32790,
+        "stars": 32791,
         "source": "GitHub Top (Swift)"
       },
       {
@@ -827,7 +827,7 @@
         "url": "https://github.com/topjohnwu/Magisk",
         "description": "The Magic Mask for Android",
         "language": "Kotlin",
-        "stars": 59515,
+        "stars": 59517,
         "source": "GitHub Top (Kotlin)"
       },
       {
@@ -835,7 +835,7 @@
         "url": "https://github.com/2dust/v2rayNG",
         "description": "A V2Ray client for Android, support Xray core and v2fly core",
         "language": "Kotlin",
-        "stars": 52736,
+        "stars": 52745,
         "source": "GitHub Top (Kotlin)"
       },
       {
@@ -843,7 +843,7 @@
         "url": "https://github.com/JetBrains/kotlin",
         "description": "The Kotlin Programming Language.",
         "language": "Kotlin",
-        "stars": 52501,
+        "stars": 52500,
         "source": "GitHub Top (Kotlin)"
       },
       {
@@ -859,7 +859,7 @@
         "url": "https://github.com/android/architecture-samples",
         "description": "A collection of samples to discuss and showcase different architectural tools and patterns for Android apps.",
         "language": "Kotlin",
-        "stars": 45614,
+        "stars": 45615,
         "source": "GitHub Top (Kotlin)"
       },
       {
@@ -867,7 +867,7 @@
         "url": "https://github.com/gedoor/legado",
         "description": "Legado 3.0 Book Reader with powerful controls & full functions\u2764\ufe0f\u9605\u8bfb3.0, \u9605\u8bfb\u662f\u4e00\u6b3e\u53ef\u4ee5\u81ea\u5b9a\u4e49\u6765\u6e90\u9605\u8bfb\u7f51\u7edc\u5185\u5bb9\u7684\u5de5\u5177\uff0c\u4e3a\u5e7f\u5927\u7f51\u7edc\u6587\u5b66\u7231\u597d\u8005\u63d0\u4f9b\u4e00\u79cd\u65b9\u4fbf\u3001\u5feb\u6377\u8212\u9002\u7684\u8bd5\u8bfb\u4f53\u9a8c\u3002",
         "language": "Kotlin",
-        "stars": 45120,
+        "stars": 45121,
         "source": "GitHub Top (Kotlin)"
       },
       {
@@ -875,7 +875,7 @@
         "url": "https://github.com/bannedbook/fanqiang",
         "description": "\u7ffb\u5899-\u79d1\u5b66\u4e0a\u7f51",
         "language": "Kotlin",
-        "stars": 42799,
+        "stars": 42802,
         "source": "GitHub Top (Kotlin)"
       },
       {
@@ -883,7 +883,7 @@
         "url": "https://github.com/gkd-kit/gkd",
         "description": "\u57fa\u4e8e\u65e0\u969c\u788d\uff0c\u9ad8\u7ea7\u9009\u62e9\u5668\uff0c\u8ba2\u9605\u89c4\u5219\u7684\u81ea\u5b9a\u4e49\u5c4f\u5e55\u70b9\u51fb\u5b89\u5353\u5e94\u7528 | An Android APP with custom screen tapping based on Accessibility, Advanced Selectors, and Subscription Rules",
         "language": "Kotlin",
-        "stars": 37270,
+        "stars": 37276,
         "source": "GitHub Top (Kotlin)"
       },
       {
@@ -906,184 +906,184 @@
   },
   "hacker_news": [
     {
-      "title": "Goodbye to Sora",
-      "url": "https://twitter.com/soraofficialapp/status/2036532795984715896",
-      "hn_link": "https://news.ycombinator.com/item?id=47508246",
-      "points": 1027,
-      "comments": 764,
-      "author": "mikeocool",
-      "summary": "<a href=\"https:&#x2F;&#x2F;xcancel.com&#x2F;soraofficialapp&#x2F;status&#x2F;2036532795984715896\" rel=\"nofollow\">https:&#x2F;&#x2F;xcancel.com&#x2F;soraofficialapp&#x2F;status&#x2\u2026"
-    },
-    {
-      "title": "Tell HN: Litellm 1.82.7 and 1.82.8 on PyPI are compromised",
-      "url": "https://github.com/BerriAI/litellm/issues/24512",
-      "hn_link": "https://news.ycombinator.com/item?id=47501426",
-      "points": 888,
-      "comments": 467,
-      "author": "dot_treo",
-      "summary": "About an hour ago new versions have been deployed to PyPI.<p>I was just setting up a new project, and things behaved weirdly. My laptop ran out of RAM, it looked like a forkbomb w\u2026"
-    },
-    {
-      "title": "Apple Business",
-      "url": "https://www.apple.com/newsroom/2026/03/introducing-apple-business-a-new-all-in-one-platform-for-businesses-of-all-sizes/",
-      "hn_link": "https://news.ycombinator.com/item?id=47504112",
-      "points": 710,
-      "comments": 405,
-      "author": "soheilpro",
-      "summary": "Popular Hacker News discussion with 710 points and 405 comments by soheilpro."
-    },
-    {
-      "title": "Show HN: I took back Video.js after 16 years and we rewrote it to be 88% smaller",
-      "url": "https://videojs.org/blog/videojs-v10-beta-hello-world-again",
-      "hn_link": "https://news.ycombinator.com/item?id=47506713",
-      "points": 588,
-      "comments": 123,
-      "author": "Heff",
-      "summary": "What do you do when private equity buys your old company and fires the maintainers of the popular open source project you started over a decade ago? You reboot it, and bring along\u2026"
+      "title": "The EU still wants to scan  your private messages and photos",
+      "url": "https://fightchatcontrol.eu/?foo=bar",
+      "hn_link": "https://news.ycombinator.com/item?id=47522709",
+      "points": 687,
+      "comments": 203,
+      "author": "MrBruh",
+      "summary": "Popular Hacker News discussion with 687 points and 203 comments by MrBruh."
     },
     {
       "title": "My astrophotography in the movie Project Hail Mary",
       "url": "https://rpastro.square.site/s/stories/phm",
       "hn_link": "https://news.ycombinator.com/item?id=47477873",
-      "points": 559,
-      "comments": 158,
+      "points": 687,
+      "comments": 180,
       "author": "wallflower",
-      "summary": "Popular Hacker News discussion with 559 points and 158 comments by wallflower."
-    },
-    {
-      "title": "Flighty Airports",
-      "url": "https://flighty.com/airports",
-      "hn_link": "https://news.ycombinator.com/item?id=47511589",
-      "points": 492,
-      "comments": 168,
-      "author": "skogstokig",
-      "summary": "Popular Hacker News discussion with 492 points and 168 comments by skogstokig."
-    },
-    {
-      "title": "TurboQuant: Redefining AI efficiency with extreme compression",
-      "url": "https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/",
-      "hn_link": "https://news.ycombinator.com/item?id=47513475",
-      "points": 435,
-      "comments": 120,
-      "author": "ray__",
-      "summary": "Popular Hacker News discussion with 435 points and 120 comments by ray__."
+      "summary": "Popular Hacker News discussion with 687 points and 180 comments by wallflower."
     },
     {
       "title": "Thoughts on slowing the fuck down",
       "url": "https://mariozechner.at/posts/2026-03-25-thoughts-on-slowing-the-fuck-down/",
       "hn_link": "https://news.ycombinator.com/item?id=47517539",
-      "points": 428,
-      "comments": 245,
+      "points": 664,
+      "comments": 327,
       "author": "jdkoeck",
-      "summary": "Popular Hacker News discussion with 428 points and 245 comments by jdkoeck."
+      "summary": "Popular Hacker News discussion with 664 points and 327 comments by jdkoeck."
     },
     {
-      "title": "Slovenian officials blame Israeli firm Black Cube for trying to manipulate vote",
-      "url": "https://www.wsj.com/world/europe/spies-lies-and-fake-investors-in-disguise-how-plotters-tried-to-flip-a-european-election-1f42b39a",
-      "hn_link": "https://news.ycombinator.com/item?id=47519519",
-      "points": 421,
-      "comments": 177,
-      "author": "cramsession",
-      "summary": "<a href=\"https:&#x2F;&#x2F;archive.ph&#x2F;LwhOj\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.ph&#x2F;LwhOj</a><p><a href=\"https:&#x2F;&#x2F;www.politico.eu&#x2F;article&#x2F;black-c\u2026"
+      "title": "Flighty Airports",
+      "url": "https://flighty.com/airports",
+      "hn_link": "https://news.ycombinator.com/item?id=47511589",
+      "points": 530,
+      "comments": 176,
+      "author": "skogstokig",
+      "summary": "Popular Hacker News discussion with 530 points and 176 comments by skogstokig."
     },
     {
-      "title": "I wanted to build vertical SaaS for pest control, so I took a technician job",
-      "url": "https://www.onhand.pro/p/i-wanted-to-build-vertical-saas-for-pest-control-i-took-a-technician-job-instead",
-      "hn_link": "https://news.ycombinator.com/item?id=47509571",
-      "points": 408,
-      "comments": 174,
-      "author": "tezclarke",
-      "summary": "Popular Hacker News discussion with 408 points and 174 comments by tezclarke."
-    },
-    {
-      "title": "Arm AGI CPU",
-      "url": "https://newsroom.arm.com/blog/introducing-arm-agi-cpu",
-      "hn_link": "https://news.ycombinator.com/item?id=47506251",
-      "points": 405,
-      "comments": 290,
-      "author": "RealityVoid",
-      "summary": "Popular Hacker News discussion with 405 points and 290 comments by RealityVoid."
-    },
-    {
-      "title": "VitruvianOS \u2013 Desktop Linux Inspired by the BeOS",
-      "url": "https://v-os.dev",
-      "hn_link": "https://news.ycombinator.com/item?id=47512816",
-      "points": 302,
-      "comments": 184,
-      "author": "felixding",
-      "summary": "Popular Hacker News discussion with 302 points and 184 comments by felixding."
-    },
-    {
-      "title": "Ensu \u2013 Ente\u2019s Local LLM app",
-      "url": "https://ente.com/blog/ensu/",
-      "hn_link": "https://news.ycombinator.com/item?id=47516650",
-      "points": 296,
-      "comments": 132,
-      "author": "matthiaswh",
-      "summary": "Popular Hacker News discussion with 296 points and 132 comments by matthiaswh."
-    },
-    {
-      "title": "Data centers are transitioning from AC to DC",
-      "url": "https://spectrum.ieee.org/data-center-dc",
-      "hn_link": "https://news.ycombinator.com/item?id=47511703",
-      "points": 265,
-      "comments": 328,
-      "author": "jnord",
-      "summary": "Popular Hacker News discussion with 265 points and 328 comments by jnord."
-    },
-    {
-      "title": "Meta and YouTube found negligent in landmark social media addiction case",
-      "url": "https://www.nytimes.com/2026/03/25/technology/social-media-trial-verdict.html",
-      "hn_link": "https://news.ycombinator.com/item?id=47520505",
-      "points": 265,
-      "comments": 123,
-      "author": "mrjaeger",
-      "summary": "Popular Hacker News discussion with 265 points and 123 comments by mrjaeger."
+      "title": "TurboQuant: Redefining AI efficiency with extreme compression",
+      "url": "https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/",
+      "hn_link": "https://news.ycombinator.com/item?id=47513475",
+      "points": 495,
+      "comments": 134,
+      "author": "ray__",
+      "summary": "Popular Hacker News discussion with 495 points and 134 comments by ray__."
     },
     {
       "title": "Miscellanea: The War in Iran",
       "url": "https://acoup.blog/2026/03/25/miscellanea-the-war-in-iran/",
       "hn_link": "https://news.ycombinator.com/item?id=47513229",
-      "points": 264,
-      "comments": 378,
+      "points": 409,
+      "comments": 593,
       "author": "decimalenough",
-      "summary": "Popular Hacker News discussion with 264 points and 378 comments by decimalenough."
+      "summary": "Popular Hacker News discussion with 409 points and 593 comments by decimalenough."
     },
     {
       "title": "Antimatter has been transported for the first time",
       "url": "https://www.nature.com/articles/d41586-026-00950-w",
       "hn_link": "https://news.ycombinator.com/item?id=47518171",
-      "points": 239,
-      "comments": 120,
+      "points": 333,
+      "comments": 159,
       "author": "leephillips",
-      "summary": "Popular Hacker News discussion with 239 points and 120 comments by leephillips."
+      "summary": "Popular Hacker News discussion with 333 points and 159 comments by leephillips."
+    },
+    {
+      "title": "VitruvianOS \u2013 Desktop Linux Inspired by the BeOS",
+      "url": "https://v-os.dev",
+      "hn_link": "https://news.ycombinator.com/item?id=47512816",
+      "points": 331,
+      "comments": 202,
+      "author": "felixding",
+      "summary": "Popular Hacker News discussion with 331 points and 202 comments by felixding."
+    },
+    {
+      "title": "Ensu \u2013 Ente\u2019s Local LLM app",
+      "url": "https://ente.com/blog/ensu/",
+      "hn_link": "https://news.ycombinator.com/item?id=47516650",
+      "points": 328,
+      "comments": 148,
+      "author": "matthiaswh",
+      "summary": "Popular Hacker News discussion with 328 points and 148 comments by matthiaswh."
+    },
+    {
+      "title": "Running Tesla Model 3's computer on my desk using parts from crashed cars",
+      "url": "https://bugs.xdavidhu.me/tesla/2026/03/23/running-tesla-model-3s-computer-on-my-desk-using-parts-from-crashed-cars/",
+      "hn_link": "https://news.ycombinator.com/item?id=47523330",
+      "points": 322,
+      "comments": 108,
+      "author": "driesdep",
+      "summary": "Popular Hacker News discussion with 322 points and 108 comments by driesdep."
+    },
+    {
+      "title": "Data centers are transitioning from AC to DC",
+      "url": "https://spectrum.ieee.org/data-center-dc",
+      "hn_link": "https://news.ycombinator.com/item?id=47511703",
+      "points": 302,
+      "comments": 368,
+      "author": "jnord",
+      "summary": "Popular Hacker News discussion with 302 points and 368 comments by jnord."
     },
     {
       "title": "Jury finds Meta liable in case over child sexual exploitation on its platforms",
       "url": "https://www.cnn.com/2026/03/24/tech/meta-new-mexico-trial-jury-deliberation",
       "hn_link": "https://news.ycombinator.com/item?id=47509984",
-      "points": 206,
-      "comments": 408,
+      "points": 301,
+      "comments": 439,
       "author": "billfor",
-      "summary": "Popular Hacker News discussion with 206 points and 408 comments by billfor."
+      "summary": "Popular Hacker News discussion with 301 points and 439 comments by billfor."
     },
     {
-      "title": "VNDB founder Yorhel has died",
-      "url": "https://vndb.org/t24787",
-      "hn_link": "https://news.ycombinator.com/item?id=47479362",
-      "points": 174,
-      "comments": 25,
-      "author": "indrora",
-      "summary": "Popular Hacker News discussion with 174 points and 25 comments by indrora."
+      "title": "Apple randomly closes bug reports unless you \"verify\" the bug remains unfixed",
+      "url": "https://lapcatsoftware.com/articles/2026/3/11.html",
+      "hn_link": "https://news.ycombinator.com/item?id=47521876",
+      "points": 275,
+      "comments": 157,
+      "author": "zdw",
+      "summary": "Popular Hacker News discussion with 275 points and 157 comments by zdw."
     },
     {
-      "title": "Sony V. Cox Decision Reversed",
-      "url": "https://supreme.justia.com/cases/federal/us/607/24-171/",
-      "hn_link": "https://news.ycombinator.com/item?id=47518785",
-      "points": 129,
-      "comments": 73,
-      "author": "rileymichael",
-      "summary": "Popular Hacker News discussion with 129 points and 73 comments by rileymichael."
+      "title": "Supreme Court Sides with Cox in Copyright Fight over Pirated Music",
+      "url": "https://www.nytimes.com/2026/03/25/us/politics/supreme-court-cox-music-copyright.html",
+      "hn_link": "https://news.ycombinator.com/item?id=47518281",
+      "points": 270,
+      "comments": 234,
+      "author": "oj2828",
+      "summary": "<a href=\"https:&#x2F;&#x2F;archive.is&#x2F;mEgaK\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.is&#x2F;mEgaK</a><p><a href=\"https:&#x2F;&#x2F;www.supremecourt.gov&#x2F;opinions&#x2F;2\u2026"
+    },
+    {
+      "title": "ARC-AGI-3",
+      "url": "https://arcprize.org/arc-agi/3",
+      "hn_link": "https://news.ycombinator.com/item?id=47521150",
+      "points": 248,
+      "comments": 174,
+      "author": "lairv",
+      "summary": "<a href=\"https:&#x2F;&#x2F;arcprize.org&#x2F;media&#x2F;ARC_AGI_3_Technical_Report.pdf\">https:&#x2F;&#x2F;arcprize.org&#x2F;media&#x2F;ARC_AGI_3_Technical_Report.pdf</a>"
+    },
+    {
+      "title": "Updates to GitHub Copilot interaction data usage policy",
+      "url": "https://github.blog/news-insights/company-news/updates-to-github-copilot-interaction-data-usage-policy/",
+      "hn_link": "https://news.ycombinator.com/item?id=47521799",
+      "points": 227,
+      "comments": 110,
+      "author": "prefork",
+      "summary": "Popular Hacker News discussion with 227 points and 110 comments by prefork."
+    },
+    {
+      "title": "Quantization from the Ground Up",
+      "url": "https://ngrok.com/blog/quantization",
+      "hn_link": "https://news.ycombinator.com/item?id=47519295",
+      "points": 188,
+      "comments": 37,
+      "author": "samwho",
+      "summary": "Popular Hacker News discussion with 188 points and 37 comments by samwho."
+    },
+    {
+      "title": "90% of Claude-linked output going to GitHub repos w <2 stars",
+      "url": "https://www.claudescode.dev/?window=since_launch",
+      "hn_link": "https://news.ycombinator.com/item?id=47521157",
+      "points": 180,
+      "comments": 100,
+      "author": "louiereederson",
+      "summary": "Popular Hacker News discussion with 180 points and 100 comments by louiereederson."
+    },
+    {
+      "title": "Looking at Unity made me understand the point of C++ coroutines",
+      "url": "https://mropert.github.io/2026/03/20/unity_cpp_coroutines/",
+      "hn_link": "https://news.ycombinator.com/item?id=47472566",
+      "points": 166,
+      "comments": 139,
+      "author": "ingve",
+      "summary": "Popular Hacker News discussion with 166 points and 139 comments by ingve."
+    },
+    {
+      "title": "FreeCAD  v1.1",
+      "url": "https://blog.freecad.org/2026/03/25/freecad-version-1-1-released/",
+      "hn_link": "https://news.ycombinator.com/item?id=47521945",
+      "points": 165,
+      "comments": 51,
+      "author": "sho_hn",
+      "summary": "Popular Hacker News discussion with 165 points and 51 comments by sho_hn."
     }
   ],
   "warnings": []
